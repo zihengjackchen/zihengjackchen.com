@@ -1,1057 +1,549 @@
-<!DOCTYPE html>
-<html lang="en">
+<l!DOCTYPE html>
+<html>
 
 <head>
+  <title>Ziheng (Jack) Chen </title>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jack Chen</title>
+  <meta name="keywords" content="Ziheng Chen, Chen Ziheng, Jack Chen, UIUC">
+  <meta name="author" content="Ziheng Chen">
+  <meta http-equiv="content-language" content="en">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="assets/css/syllabus.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+
+
 </head>
 
+<div align="center">
+    <body alink="#ff0000" bgcolor="#333333" link="#C00000" text="#000000" vlink="#C00000" onload="collectTabs();">
+    <TABLE CELLSPACING="30" CELLPADDING="30" BORDER="0">
+        <TR>                    
+            <TD width="980" valign="center" bgcolor="#FFFFFF">
+                <table>             
+                    <tr>
+                        <h1 style = "text-align: center;">ECE310: Digital Signal Processing</h1>
+                        <h2 style = "text-align: center;">Summer 2022</h2>
+                        <img  style="text-align: center; width:890px" src="banner.png">                         
+                        <!--<img rel="foaf:img" style="text-align: center; border: 0px solid #333;" width=710px src="banner.png">                        --> 
+                    </tr>           
+
+                </table>
 <body>
+  <main role="main" class="container">
+    
+<!-- ..................................................................................... -->
+<br>
+<h1>Course Description</h1>
+<p class="lead">Introduction to discrete-time systems and discrete-time signal processing with an emphasis on causal systems; discrete-time linear systems, difference equations, z-transforms, discrete convolution, stability, discrete-time Fourier transforms, analog-to-digital and digital-to-analog conversion, digital filter design, discrete Fourier transforms, fast Fourier transforms, spectral analysis, and applications of digital signal processing. 
+</p>
+<b>Lectures:</b>  MTWTF, 9:00am - 9:50am, <a href="https://illinois.zoom.us/j/85751924550?pwd=d2x4dHJWUTIrTWhBZFdGRkpBK1A4dz09">Zoom</a> <br><br>
+<b>Lecture Recording:</b>  <a href="https://mediaspace.illinois.edu/channel/ECE310-SU22/259532672">Media Space</a> <br><br>
+<b>Prerequisites:</b> ECE 210<br><br>
+<b>Recommended Textbooks:</b>
+<UL>
+    <li>Applied Digital Signal Processing: Theory and Practice (1st ed.) by Dimitris G. Manolakis and Vinay K. Ingle, Cambridge Univ. Press publisher ISBN: 978-052111020. Also available in digital format.</li>
+    <li>(Optional) OS: Discrete-Time Signal Processing by Alan V. Oppenheim and Ronald W. Schafer (on reserve at the library)</li>
+</ul>
 
-  <!--
-    - #MAIN
-  -->
+<br>
 
-  <main>
+<hr color="#000000" /> 
+<p><font size=+3><b>Teaching Staffs</b></font></p>
+<br>
+<b>Instructor:</b> <a href="https://publish.illinois.edu/tmoon/">Thomas Moon</a> (tmoon@)<br><br>
+<b>Office Hours:</b> Monday, 10-11am, <a href="https://illinois.zoom.us/j/89150744771?pwd=ZEVJaEpHOU5qNWFtNi9pcWNhSTlMQT09">Zoom</a><br><br><br>
+<b>TA:</b> Ziyang Xu (ziyangx2@)<br><br>
+<b>Office Hours:</b> Tue/Thursday, 7-8pm, <a href="https://illinois.zoom.us/j/7743845444?pwd=cEV1M0RXWTAyZFFmUFpaR29kT0JTQT09">Zoom</a><br><br>
 
-    <!--
-      - #SIDEBAR
-    -->
 
-    <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/Jack.JPG" alt="Jack Chen" width="80">
-        </figure>
+<!-- ..................................................................................... -->
+<hr color="#000000" /> 
+<h1>Schedule</h1>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr style="border-bottom:3px solid black">
+                <th width="8%">Date</th>
+                <th width="34%">Topic</th>
+                <th width="8%">Reading Assignment</th>
+                <th width="20%">Lecture Notes</th>
+                <th width="15%">HW & Worksheet</th>
+                <th width="15%">Lecture Videos</th>
+            </tr>
+        </thead>
+        <tbody>
+        <!-- Week 1 -->
+        <tr>
+            <th colspan="1" rowspan="1"> 6/13</th>
+            <td>1. Introduction</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/su22_lecture1.pdf">1. Intro</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_kix32xmx">Lecture 1</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/14</th>
+            <td>2. Continuous-time (CT) and discrete-time (DT) signals
+        </td>
+            <td style="text-align:center">1.1-1.4</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec2.pdf">2. CT and DT signals</a></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/template.pdf">Quiz & HW Template</a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_1saagh3m">Lecture 2</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/15</th>
+            <td>3. Review of complex numbers</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec3.pdf">3. Complex numbers</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_bglehwhg">Lecture 3</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/16</th>
+            <td>4. Discrete-time systems
+            Linear and time-invariant (LTI) systems</td>
+            <td style="text-align:center">2.1-2.3</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec4.pdf">4. Discrete-time Systems</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_8oyu1iso">Lecture 4</a></td>
+        </tr>
+        <tr style="border-bottom:3px solid black">
+            <th colspan="1" rowspan="1"> 6/17</th>
+            <td>5. Impulse response and convolution</td>
+            <td style="text-align:center">2.4</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec5.pdf">5. h[n] and convolution</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_ng6hd6o0">Lecture 5</a></td>
+        </tr>
+        <tr >
+            <th colspan="1" rowspan="1"> 6/20</th>
+            <td>6. Causality and Stability</td>
+            <td style="text-align:center">2.5</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec6.pdf">6. Causality and Stability by h[n]</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_myh3z2q0">Lecture 6</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/21</th>
+            <td>7. Difference Equation</td>
+            <td style="text-align:center">2.10</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec7.pdf">7. LCCDE </a></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW1.pdf">HW1 </a>due <br><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW1_sol.pdf">HW1 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_3r28rnnc">Lecture 7</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/22</th>
+            <td>8. Z-transform 1</td>
+            <td style="text-align:center">3.1-3.4</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec8.pdf">8-10. Z-transform</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_p1czy4qi">Lecture 8</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/23</th>
+            <td>9. Z-transorm2 & <b>Quiz1</b> </td>
+            <td style="text-align:center">3.1-3.4</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/quiz/Quiz1_sol.pdf">Quiz1 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_b7qj7ex5">Lecture 9</a></td>
+        </tr>
+        <tr style="border-bottom:3px solid black">
+            <th colspan="1" rowspan="1"> 6/24</th>
+            <td>10. Z-transform 3</td>
+            <td style="text-align:center">3.1-3.4</td>
+            <td></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_29616bpp">Lecture 10</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/27</th>
+            <td>11. Inverse Z-transform</td>
+            <td style="text-align:center">3.1-3.4</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec11.pdf">11. Inverse Z-transform</a></td>
+            <td style="text-align:center"><a href="https://www.prairielearn.org/pl">WS1</a> due</td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_3wpoouri">Lecture 11</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/28</th>
+            <td>12. System Transfer Function</td>
+            <td style="text-align:center">3.5-3.7</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec12.pdf">12-14. H(z) and its causality/stability </a></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW2.pdf">HW2 </a>due <br><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW2_sol.pdf">HW2 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_hbfhhpqx">Lecture 12</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/29</th>
+            <td>13. Causality and Stability by Z-transform</td>
+            <td style="text-align:center">3.5-3.7</td>
+            <td></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_g92jfp36">Lecture 13</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 6/30</th>
+            <td>14. Causality and Stability by Z-transform &<br><b>Quiz2 (covers Lec note 6-10)</b></td>
+            <td style="text-align:center">4.1-4.5</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/quiz/Quiz2_sol.pdf">Quiz2 sol </a></td>
+            <td style="text-align:center">Lecture 14 (not recorded)</td>
+        </tr>
+        <tr style="border-bottom:3px solid black">
+            <th colspan="1" rowspan="1"> 7/1</th>
+            <td>15. Fourier Transforms </td>
+            <td style="text-align:center">4.1-4.5</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec15.pdf">15. CTFT </a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_ujguvt27">Lecture 15</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/4</th>
+            <td style="color: white; background-color:rgb(153, 0, 0);"> <b> Independence Day</b></td>
+            <td style="color: white; background-color:rgb(153, 0, 0);"> </td>
+            <td style="color: white; background-color:rgb(153, 0, 0);"> </td>
+            <td style="text-align:center"><a href="https://www.prairielearn.org/pl">WS2</a> due</td>
+            <td style="color: white; background-color:rgb(153, 0, 0);"> </td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/5</th>
+            <td>16. DTFT 1</td>
+            <td style="text-align:center">4.1-4.5</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec16.pdf">16-19. DTFT & its inverse </a></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW3.pdf">HW3 </a>due<br><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW3_sol.pdf">HW3 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_jpcr90s4">Lecture 16</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/6</th>
+            <td>17. Inverse DTFT </td>
+            <td style="text-align:center">4.1-4.5</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Ws3.pdf">WS3.pdf </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_qc6vjbzl">Lecture 17</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/7</th>
+            <td>18. DTFT 2 & <b>Quiz3 (Lec note 11-14)</b> </td>
+            <td style="text-align:center">4.1-4.5</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/quiz/Quiz3_sol.pdf">Quiz3 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_gjpn7shb">Lecture 18</a></td>
+        </tr>
+        <tr style="border-bottom:3px solid black">
+            <th colspan="1" rowspan="1"> 7/8</th>
+            <td>19. DTFT 3</td>
+            <td style="text-align:center">4.1-4.5</td>
+            <td></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_0gllb26h">Lecture 19</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/11</th>
+            <td>20. Sinusoidal Response of LTI 1</td>
+            <td style="text-align:center">5.1-5.6</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec20.pdf">20-21. Sinusoidal response</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_orc6zeop">Lecture 20</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/12</th>
+            <td>21. Sinusoidal Response of LTI 2</td>
+            <td style="text-align:center">5.1-5.6</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW4.pdf">HW4 </a>due<br><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW4_sol.pdf">HW4 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_86vm1imv">Lecture 21</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/13</th>
+            <td>22. Sampling</td>
+            <td style="text-align:center">6.1-6.3</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec22.pdf">22-23. Sampling</a></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Ws4.pdf">WS4.pdf </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_75xggs5t">Lecture 22</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/14</th>
+            <td> 23. Sampling 2& <b>Quiz4 (Lec note 15-19)</b></td>
+            <td style="text-align:center">6.1-6.3</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/quiz/Quiz4_sol.pdf">Quiz4 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_f2c3fo6s">Lecture 23</a></td>
+        </tr>
+        <tr style="border-bottom:3px solid black">
+            <th colspan="1" rowspan="1"> 7/15</th>
+            <td> 24. Nyquist Condition</td>
+            <td style="text-align:center">6.1-6.3</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec24.pdf">24. Nyquist</a></td>
+            <td style="text-align:center"><a href="https://www.prairielearn.org/pl">WS3</a> due</td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_ycquf9kw">Lecture 24</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/18</th>
+            <td>25. Reconstruction 1</td>
+            <td style="text-align:center">6.1-6.3</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec25.pdf">25-26. Reconstruction</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_ejqq25xm">Lecture 25</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/19</th>
+            <td>26. Reconstruction 2</td>
+            <td style="text-align:center">6.1-6.3</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW5.pdf">HW5 </a>due<br><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW5_sol.pdf">HW5 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_gu7mhqop">Lecture 26</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/20</th>
+            <td>27. DFT 1</td>
+            <td style="text-align:center">7.1-7.6</td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec27.pdf">27-29. DFT</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_re4t1vjp">Lecture 27</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/21</th>
+            <td>28. DFT 2 & <b>Quiz5 (Lec note 20-24)</b></td>
+            <td style="text-align:center">7.5</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/quiz/Quiz5_sol.pdf">Quiz5 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_5t8jokga">Lecture 28</a></td>
+        </tr>
+        <tr style="border-bottom:3px solid black">
+            <th colspan="1" rowspan="1"> 7/22</th>
+            <td>29. DFT 3</td>
+            <td></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://www.prairielearn.org/pl">WS4</a> due</td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_75iqf6w0">Lecture 29</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/25</th>
+            <td>30. Circular convolution and DFT</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec30.pdf">30. Circular convolution</a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_2z2j3pm1">Lecture 30</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/26</th>
+            <td>31. DFT Spectral Analysis </td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec31.pdf">31. DFT Spectral Analysis</a></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW6.pdf">HW6 </a>due<br><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW6_sol.pdf">HW6 sol </a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_q8a5rjwp">Lecture 31</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/27</th>
+            <td>32. Digital Processing of Analog Signals</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec32.pdf">32. Digital Processing of Analog Signals</a></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/transform_tables_update.pdf">Transform tables</a></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_1gkiiya4">Lecture 32</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 7/28</th>
+            <td> <b>Quiz6 (Lec note 25-29)</b></td>
+            <td></td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/quiz/Quiz6_sol.pdf">Quiz6 sol </a></td>
+            <td></td>
+        </tr>
+        <tr style="border-bottom:3px solid black">
+            <th colspan="1" rowspan="1"> 7/29</th>
+            <td>FFT 1</td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/notes/Lec33.pdf">33. FFT </a></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://mediaspace.illinois.edu/media/t/1_cgnxmm8x">Lecture 33</a></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 8/1</th>
+            <td>FFT 2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 8/2</th>
+            <td>FIR and IIR Filters</td>
+            <td></td>
+            <td></td>
+            <td style="text-align:center"><a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/hws/HW7.pdf">HW7 </a>due</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="1"> 8/3</th>
+            <td>Downsampling and Upsampling</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="border-bottom:3px solid black">
+            <th colspan="1" rowspan="1"> 8/4</th>
+            <td>Review</td>
+            <td></td>
+            <td></td>
+            <td style="text-align:center"><a href="https://www.prairielearn.org/pl">WS5</a> due 8/6</td>
+            <td></td>
+        </tr>
 
-        <div class="info-content">
-          <h1 class="name" title="Jack Chen">Jack Chen</h1>
+            <!--
+            <td> <b> Lecture #1: </b>Introduction - Overview & Logistics  [<a target="_blank"
+                    href="secure/lectures/Lec1_fa19.pdf" target="_blank">pdf</a>] </td>
+            <td> <b> Lab #1: </b>Introduction to LabView [<a target="_blank"
+                    href="secure/labs/Lab1_fa19.pdf" target="_blank">pdf</a>]</td>
+                    -->
+        <!-- Week 8 
+        <tr>
+            <th colspan="1" rowspan="1"> 8</th>
+            <td>10/16</td>
+            <td style="color: white; background-color:rgb(153, 0, 0);"> <b> Quiz1 </b></td>
+            <td> <b> Lab #7: </b> CFO Estimation & Correction [<a target="_blank"
+                    href="secure/labs/Lab7_fa19.pdf" target="_blank">pdf</a>]</td>
+        </tr>
+        -->
+        </tbody>
+    </table>
 
-          <p class="title">IT Intern @ Ecolab</p>
-          <p class="title">Computer Engineering @ UIUC</p>
+</div>
+
+<br>
+
+
+<!-- ..................................................................................... -->
+<hr color="#000000" /> 
+<p><font size=+3><b>Grading policy</b></font></p>
+<ul>
+    <li>Worksheets: 15%</li>
+    <li>Homeworks: 25%</li>
+    <li>Quizzes: 40%</li>
+    <li>Final: 20%</li>
+</ul>
+<br>
+
+<!-- ..................................................................................... -->
+<hr color="#000000" /> 
+<p><font size=+3><b>Worksheet</b></font></p>
+<ul>
+    <li>Worksheets will be posted and graded by <a href="https://www.prairielearn.org/pl"> PrarerieLearn</a>. Find the course, ECE310: Digital Signal Processing Summer 2022.  </li>
+    <li>Late worksheet submissions will not be accepted. </li>
+    <li>Some of worksheet problems will be discussed during the lecture. </li>
+    </li>
+    <!-- <li>Regrade requests must be submitted on gradescope within one week of grades being posted.</li>-->
+</ul>
+<br>
+<!-- ..................................................................................... -->
+<hr color="#000000" /> 
+<p><font size=+3><b>Homework</b></font></p>
+<ul>
+    <li>Homeworks will be graded using <a href="https://canvas.illinois.edu "> Canvas</a>. </li>
+    <li>Late homework submissions will not be accepted. </li>
+    <li>One lowest HW grade will be dropped. </li>
+    <li>You will be submitting homework as a PDF file.</li>
+    <li>Write neatly. Please box the equations you will be solving and the final answer. If we cannot read it we cannot grade it!
+    </li>
+    <!-- <li>Regrade requests must be submitted on gradescope within one week of grades being posted.</li>-->
+</ul>
+<br>
+
+<!-- ..................................................................................... -->
+<hr color="#000000" /> 
+<p><font size=+3><b>Quiz & Exam</b></font></p>
+<strong>IMPORTANT:</strong> Quizzes and exams will be proctored online using two-device proctoring. This means you are required to have: 1) A computer for viewing the exam, 2) A mobile device/tablet/second computer with camera for live video feed of your desk/workspace, 3) Sufficient Internet connection to stream your live video feed.
+<br>
+<a href="http://courses.grainger.illinois.edu/ece310/su2022/HowtoPositionYourPhone.pdf ">How to position your phone </a>
+
+<br>
+<br>
+<!--
+<ul>
+    <li><strong>There will be 3 midterms and 1 final exam, and one lowest midterms will be dropped.</strong></li>
+    <li>The quizzes will be <strong>closed book.</strong> Electronic devices of any sort such as calculators, laptops, PDAs, cellphones, pagers, iPods or other MP3 players etc. are not permitted. If you have any issues during the quiz, please inform the proctors immediately and work with them to resolve the issues before submitting your work.
+    </li>
+</ul>
+<br>
+-->
+<p><font size=+2><b>Quiz</b></font></p>
+<ul>
+    <li>There will be <b>6 quizzes</b> and <b>one lowest quiz grade will be dropped.</b> </li>
+    <li>The quiz will occur in <b>the first half-hour of every Thursday lecture</b> starting from the second week. There are no scheduled make-up quizzes. If you have an unavoidable medical or personal emergency, an exception might be granted. To be eligible for a make-up quiz, you must notify the instructor (not a TA) before the scheduled starting time of the quiz, and you must fully document your absence.
+    </li>
+    <li>Coverage: Each quiz will cover the previous week's materials.  </li>
+    <li>The quizzes will be open-book, open-notes.    </li>
+</ul>
+<p><font size=+2><b>Final</b></font></p>
+<ul>
+    <li><strong>Date: Saturday, August 6, 2022, 1:00-3:00 PM (central time) </strong></li>
+    <li>Coverage: Comprehensive</li>
+</ul>
+<!-- ..................................................................................... -->
+<hr color="#000000" /> 
+<p><font size=+3><b>Past Exams</b></font></p>
+<ul>
+    <li>Midterm 1: <a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/past/ECE310_fa2021_e01_sol.pdf">Fall 2021</a>(with solution), <a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/past/ECE310_sp2021_e01.pdf">Spring 2021</a> </li>
+    <li>Midterm 2: <a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/past/ECE310_fa2021_e02_sol.pdf">Fall 2021</a>(with solution), <a href="http://courses.grainger.illinois.edu/ece310/su2022/secure/past/ECE310_sp2021_e02.pdf">Spring 2021</a> </li>
+    <li>Final: </li>
+    </li>
+</ul>
+<br>
+<!-- ..................................................................................... -->
+<hr color="#000000" /> 
+<p><font size=+3><b>Academic Integrity</b></font></p>
+
+Students are expected to abide by the University of Illinois Student Code.
+
+Any academic integrity violations will result in a FAIR report. Furthermore, the penalty will be as follows:
+
+<ul>
+<li>A score of 0 (zero) on the assignment or quiz or exam where the academic integrity violation occurred.
+<li>A second offense results in a grade of F for the course.
+<li>Note that the standard of proof for a finding of infraction is “more likely than not”. This means I only need to show with 51% certainty that you committed the offense for the allegations to go on your record.
+</ul>
+
+<br>
+The following is a partial list of academic integrity violations for this course:
+<ul>
+<li>Copying homework or lab solutions from other students (working together and discussing is acceptable)
+<li>Copying homework or lab solutions from past solutions
+<li>Using websites such as Chegg or Course Hero while completing any course assignments or quizzes or exams
+<li>Using unauthorized materials during quizzes or exams
+<li>Violating CBTF proctoring policies
+<li>Communicating with any person during quizzes or exams
+<li>Discussing the exam with any person within 24 hours of exam completion
+<li>Not an academic integrity violation: Distributing any course material without authorization. This includes uploading homeworks/solutions and exam solutions to web sites, or sharing these documents with people not enrolled in the course. Although not an academic integrity violation, it is a violation of the law and I will refer you to U.S. Attorney's Office for prosecution under The Digital Millennium Copyright Act.
+</ul>
+<br>
+<!-- ..................................................................................... -->
+<!-- ..................................................................................... -->
+<hr color="#000000" /> 
+<hr color="#000000" /> 
+
+</main>
+
+<footer class="panel-footer navbar-fixed-bottom">
+    <div class="container-fluid">
+        <div class="row">
+
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:zihengchen2000@gmail.com" class="contact-link">@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+13128236315" class="contact-link">+1 (312) 823-6315</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Graduation Date</p>
-
-              <time datetime="1982-06-23">May, 2023</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Champaign, Illinois, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-wechat"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-discord"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-steam"></ion-icon>
-            </a>
-          
-          </li>
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>MISC</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
-          </p>
-
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-        <!-- Inserting PDF Resume -->
-        <h1> How to disable downloading of the PDF document </h1>
-        <iframe src="./assets/Ziheng Chen Resume.pdf#toolbar=0" width="100%" height="500px">
-        </iframe>
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Companies</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/companies/uiuc-logo.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/companies/ecolab-logo.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/companies/stonex-logo.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <!-- <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section> -->
-
-        <!-- <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section> -->
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-        <!-- Inserting PDF Resume -->
-        <h1> How to disable downloading of the PDF document </h1>
-        <iframe src="/assets/Ziheng Chen Resume.pdf#toolbar=0" width="100%" height="500px">
-        </iframe>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <!-- <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> -->
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <!-- <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> -->
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">MISC</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <!-- <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section> -->
-        
-        
-      </article>
-
     </div>
+</footer>
 
-  </main>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="assets/js/syllabus.js"></script>
 
 </body>
 
