@@ -1,0 +1,435 @@
+/* Your SCSS here. */
+
+// Some variables
+$font-family: 'Open Sans', 'Helvetica';
+$default-font-size: 25px;
+$small-font-size: 20px;
+$title-font-size: 2.5vw;
+$full-width: 100%;
+$full-height: 100%;
+$default-navbar-height: 75px;
+$default-gap: 20px;
+
+$color-darkest: #576490;
+$color-dark: #7796CB;
+$color-normal: #A3BCF9;
+$color-light: #D1D2F9;
+$color-lightest: #C9CAD9;
+
+$default-border-radius: 0.25rem;
+$default-border-radius: 0.25rem;
+$default-flexbox-height: 100vh;
+$footer-flexbox-height: 30vh;
+
+$default-modal-size: 80%;
+$smallest-margin: 2px 2px 2px 2px;
+$small-margin: 2% 2% 2% 2%;
+$large-margin: 4% 4% 4% 4%;
+
+
+$media-font-size: 15px;
+$media-title-font-size: 4vw;
+$media-small-margin: 1% 1% 1% 1%;
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #282A36;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	color: black;
+	font-family: $font-family;
+	font-size: $default-font-size;
+	@media only screen and (max-width: 1300px) {
+		font-size: $media-font-size;
+	}
+}
+
+.nav-container {
+	overflow: hidden;
+	background-color: $color-darkest;
+	
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: $full-width; /* Full width */
+	height: $default-navbar-height;
+	display: flex;
+	align-items: center;
+	
+	flex-direction: row;
+	justify-content: space-between;
+
+	gap: $default-gap;
+	z-index: 3;
+
+	.nav-right{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 0.25vw;
+	}
+
+	.nav-item { 
+		text-align: center;
+		font-weight: bold;
+		margin: $smallest-margin;
+		font-size: 30px;
+		border-radius: $default-border-radius;
+	}
+	
+	a:link, a:visited {
+		color: white;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+	  }
+	
+	a:hover, a:active {
+		color: $color-lightest;
+	}
+	
+	.selected{
+		border-radius: $default-border-radius;
+		margin: $smallest-margin;
+	}
+}
+
+
+.container {
+	width: $full-width;
+	display: grid;
+	grid-template-columns:
+		[main-start]
+		[column1-start] 1fr
+		[column2-start] 1fr
+		[column3-start] 1fr
+		[column4-start] 1fr
+		[column5-start] 1fr
+		[main-end] ;
+	grid-template-rows:
+		[row-start landing-start] $default-flexbox-height
+		[about-start] $default-flexbox-height
+		[resume-start] $default-flexbox-height
+		[skills-start] $default-flexbox-height
+		[misty-start] $default-flexbox-height
+		[trivia-start] $default-flexbox-height
+		[contact-start] $footer-flexbox-height
+		[row-end];
+
+	.item {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		
+		.title{
+			text-align: center;
+			font-size: $title-font-size;
+			@media only screen and (max-width: 1300px) {
+				font-size: $media-title-font-size;
+			}
+		}
+
+		.anchor {
+			position: absolute; 
+			top: -50px;
+		}
+	}
+}
+
+
+.landing {
+	grid-column: main-start / main-end;
+	grid-row: landing-start / about-start;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+
+	#hello{
+		position: absolute;
+		font-size: 2vw;
+		mix-blend-mode: normal;
+		z-index: 2;
+	}
+
+	#background-video {
+		animation: fade 5s;
+		width: $full-width;
+		height: $default-flexbox-height;
+		object-fit: cover;
+		position: static;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		z-index: -1;
+	}
+}
+
+
+
+.about {
+	background-color: $color-lightest;
+	grid-column: main-start / main-end;
+	grid-row: about-start / resume-start;
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+
+	#content-about{
+		display: grid;
+		flex-direction: row;
+		grid-template-columns: 2fr 3fr;
+		place-items: center;
+	}
+
+	.picture{
+		place-items: center;
+
+		#headshot{
+			border-radius: $default-border-radius;
+			width:20vw;
+		}
+	}
+
+	.center-text{
+		align-items: center;
+		margin: $large-margin;
+		@media only screen and (max-width: 1300px) {
+			margin: $small-margin;
+			font-size: $small-font-size;
+		}
+	}
+	
+}
+
+
+.resume {
+	color: white;
+	grid-column: main-start / main-end;
+	grid-row: resume-start / skills-start;
+	background-image: '#background-picture';
+	background-attachment: scroll;
+
+	#modal-button{
+		background-color: white; 
+		color: black; 
+		border: 5px solid $color-darkest;
+		border-radius: $default-border-radius;
+	
+		padding: 8px 16px;
+		margin: $small-margin;
+		text-align: center;
+		font-family: $font-family;
+		font-weight: bold;
+		display: inline-block;
+		
+		transition-duration: 0.5s;
+		cursor: pointer;
+		
+		@media only screen and (max-width: 1300px) {
+			margin: $media-small-margin;
+		}
+	}
+	
+	#modal-button:hover {
+		background-color: $color-darkest;
+		color: white;
+	}
+	
+	.modal {
+		display: none; /* Hidden by default */
+		position: fixed; /* Stay in place */
+		z-index: 5; /* Sit on top */
+		padding-top: 100px; /* Location of the box */
+		left: 0;
+		top: 0;
+		width: $full-width; /* Full width */
+		height: $full-height; /* Full height */
+		overflow: auto; /* Enable scroll if needed */
+	
+		.modal-content {
+			background-color: $color-lightest;
+			margin: auto;
+			padding: 20px;
+			border: 5px solid color-dark;
+			border-radius: $default-border-radius;
+			width: $default-modal-size;
+			height: $default-modal-size;
+			animation-name: animatetop;
+			animation-duration: 0.5s;
+
+			.close {
+				color: white;
+				float: right;
+				font-size: 2vw;
+				font-weight: bold;
+			}
+			  
+			.close:hover,
+			.close:focus {
+				color: color-dark;
+				text-decoration: none;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+@keyframes animatetop {
+	from {top: -300px; opacity: 0}
+	to {top: 0; opacity: 1}
+}
+
+
+
+#background-picture{
+	display: none;
+	bottom: 0;
+	left: 0;
+	width: $full-width;
+	position: fixed;
+	width: $full-width;
+	height: $full-height;
+	z-index: -3;
+}
+
+#content-resume{
+	width: $full-width;
+	display: flex;
+	justify-content: space-around;
+	place-items: left;
+	text-align: center;
+	font-size: $small-font-size;
+	@media only screen and (max-width: 1300px) {
+		font-size: $media-font-size;
+	}
+}
+
+.list ul{
+	text-align: left;
+}
+
+.skills {
+	background-color: $color-lightest;
+	grid-column: main-start / main-end;
+	grid-row: skills-start / misty-start;
+}
+
+.misty {
+	background-color: $color-lightest;
+	grid-column: main-start / main-end;
+	grid-row: misty-start / trivia-start;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#content-misty{
+	color: black;
+	display: flex;
+	width: $default-modal-size;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#slide-container {
+	color: white;
+	order: 2;
+	position: relative;
+	margin: $small-margin;
+	flex-grow: 5;
+	display: flex;
+	justify-content: center;
+}
+
+.slides {
+	display: flex;
+	.carousel{
+		height: 80vh;
+		animation: fade 2s;
+	}
+}
+
+.arrow{
+	background-color: white; 
+	color: black; 
+	border: 5px solid $color-darkest;
+	border-radius: $default-border-radius;
+
+	padding: 16px 8px;
+	text-align: center;
+	display: inline-block;
+	
+	transition-duration: 0.5s;
+	cursor: pointer;
+
+	font-weight: bold;
+	margin: $small-margin;
+	font-size: 4vw;
+}
+
+.arrow:hover {
+	background-color: $color-darkest;
+	color: white;
+}
+
+
+.prev{
+	order: 1;
+	flex-grow: 1;
+}
+
+.next{
+	order: 3;
+	flex-grow: 1;
+}
+
+#prev_slide:hover, #next_slide:hover {
+	background-color: color-dark;
+}
+
+
+@keyframes fade {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.trivia {
+	background-color: $color-lightest;
+	grid-column: main-start / main-end;
+	grid-row: trivia-start / contact-start;
+}
+
+.contact {
+	background-color: $color-darkest;
+	grid-column: main-start / main-end;
+	grid-row: contact-start / main-end;
+}
+
+
+#content-contact{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+
+#middle{
+	padding: 1em;
+	background-color: $color-normal;
+	position: fixed;
+	top: 50%;
+	right: 0;
+	border-radius: $default-flexbox-height;
+	transform: translateY(-50%);
+	align-items: center;
+}
