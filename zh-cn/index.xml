@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>陈自衡</title>
+    <link>http://www.zihengjackchen.com/zh-cn/</link>
+    <description>Recent content on 陈自衡</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language><atom:link href="http://www.zihengjackchen.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://www.zihengjackchen.com/zh-cn/about/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.zihengjackchen.com/zh-cn/about/</guid>
+      <description>First-year Master&amp;rsquo;s student seeking an internship in software engineering and related fields for summer 2024.链接到标题I am a first-year master&amp;rsquo;s student in Computer Engineering at the University of Illinois Urbana-Champaign. I am interested in software development, cloud computing, autonomous vehicles, machine learning, and computer vision.
+I like trying out new things, from restaurants to technology. I like taking apart electronics and gadgets: car head units, PCs, laptops, smartphones, keyboards, mice, you name it.</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>http://www.zihengjackchen.com/zh-cn/experience/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.zihengjackchen.com/zh-cn/experience/</guid>
+      <description>Resume (Updated 10/2023)
+Work Experience链接到标题Software Engineer Intern (Part-time)
+StoneX Group Inc. (Chicago, Illinois, United States) Jan 2023 - Jun 2023 Developed an evaluation pipeline in Python to efficiently back-test the performance of commodity price indices Suggested adjustable parameters (rolling, rebalancing strategies) and calculated potential loss The best-performing index outperformed SPGCCI by 23.3% and 8.8% in 10-year total return and Sharpe Ratio Created a Python script for CI/CD to automatically migrate workflows in Databricks to production environments Data Engineer Intern</description>
+    </item>
+    
+    <item>
+      <title>Projetos</title>
+      <link>http://www.zihengjackchen.com/zh-cn/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.zihengjackchen.com/zh-cn/projects/</guid>
+      <description>Nada para ver aqui.. Circulando!</description>
+    </item>
+    
+  </channel>
+</rss>
