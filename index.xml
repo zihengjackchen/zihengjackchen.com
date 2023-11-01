@@ -18,6 +18,24 @@ I like trying out new things, from restaurants to technology. I like taking apar
     </item>
     
     <item>
+      <title>Education</title>
+      <link>http://www.zihengjackchen.com/education/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.zihengjackchen.com/education/</guid>
+      <description>
+University of Illinois Urbana-Champaign
+Master of Science - MS, Computer Engineering*
+Aug 2023 - May 2025
+Grade: 4.0/4.0
+University of Illinois Urbana-Champaign
+Bachelor of Science - BS, Computer Engineering
+Aug 2019 - May 2023
+Grade: 3.99/4.0, Highest Honor, James Scholar, Dean&amp;rsquo;s List
+Relevant CourseworkLink to headingMahcine learning </description>
+    </item>
+    
+    <item>
       <title>Experience</title>
       <link>http://www.zihengjackchen.com/experience/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
@@ -25,7 +43,19 @@ I like trying out new things, from restaurants to technology. I like taking apar
       <guid>http://www.zihengjackchen.com/experience/</guid>
       <description>Resume (Updated 10/2023)
 Work ExperienceLink to headingSoftware Engineer Intern (Part-time)
-StoneX Group Inc. (Chicago, Illinois, United States) Jan 2023 - Jun 2023 Developed an evaluation pipeline in Python to efficiently back-test the performance of commodity price indices Suggested adjustable parameters (rolling, rebalancing strategies) and calculated potential loss The best-performing index outperformed SPGCCI by 23.3% and 8.8% in 10-year total return and Sharpe Ratio Created a Python script for CI/CD to automatically migrate workflows in Databricks to production environments Data Engineer Intern</description>
+StoneX Group Inc. (Chicago, Illinois, United States)
+Jan 2023 - Jun 2023
+Developed an evaluation pipeline in Python to efficiently back-test the performance of commodity price indices Suggested adjustable parameters (rolling, rebalancing strategies) and calculated potential loss The best-performing index outperformed SPGCCI by 23.3% and 8.8% in 10-year total return and Sharpe Ratio Created a Python script for CI/CD to automatically migrate workflows in Databricks to production environments Data Engineer Intern</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>http://www.zihengjackchen.com/skills/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.zihengjackchen.com/skills/</guid>
+      <description>Programming langaugesLink to headingpython, C, C++,
+Tools and FrameworksLink to headingReact</description>
     </item>
     
     <item>
@@ -254,21 +284,12 @@ flowchart LRA --&gt; BB --&gt; CC --&gt; DD --&gt; BsequenceDiagrampartici
     </item>
     
     <item>
-      <title></title>
-      <link>http://www.zihengjackchen.com/skills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.zihengjackchen.com/skills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Projects</title>
       <link>http://www.zihengjackchen.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.zihengjackchen.com/projects/</guid>
-      <description>Nothing to see here&amp;hellip; Move along!</description>
+      <description> Month Savings January $250 February $80 March $420 </description>
     </item>
     
   </channel>

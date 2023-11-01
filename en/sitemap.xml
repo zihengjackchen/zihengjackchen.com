@@ -15,6 +15,9 @@
                 href="http://www.zihengjackchen.com/about/"
                 />
   </url><url>
+    <loc>http://www.zihengjackchen.com/education/</loc>
+    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.zihengjackchen.com/experience/</loc>
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -27,6 +30,9 @@
                 hreflang="en"
                 href="http://www.zihengjackchen.com/experience/"
                 />
+  </url><url>
+    <loc>http://www.zihengjackchen.com/skills/</loc>
+    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.zihengjackchen.com/authors/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
@@ -200,8 +206,6 @@
   </url><url>
     <loc>http://www.zihengjackchen.com/tags/shortcodes/_index.pt-br/</loc>
     <lastmod>2023-01-04T11:51:36+01:00</lastmod>
-  </url><url>
-    <loc>http://www.zihengjackchen.com/skills/</loc>
   </url><url>
     <loc>http://www.zihengjackchen.com/projects/</loc>
     <xhtml:link
