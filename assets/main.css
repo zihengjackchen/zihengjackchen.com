@@ -1,6 +1,4 @@
 @import "https://fonts.googleapis.com/css?family=Fira Sans";
-@import "https://fonts.googleapis.com/css?family=Noto Sans";
-@import "https://fonts.googleapis.com/css?family=Agbalumo";
 
 img[src*="#center"] {
   display: block;
@@ -22,7 +20,7 @@ a.navigation-title,
 a.navigation-link,
 section.container.page,
 * {
-  font-family: "Fira sans";
+  font-family: -apple-system,Fira sans,BlinkMacSystemFont,segoe ui,Roboto,microsoft yahei,微软雅黑,SimSun,宋体;
 }
 
 .content article p {
@@ -34,5 +32,10 @@ section.container.page,
     width: 100%;
     text-align: center;
     font-size: 1.3rem;
-    line-height: 2rem;
+    line-height: 1.3rem;
 }
+
+.navigation .navigation-title {
+    letter-spacing: 0;
+    text-transform: None;
+};
