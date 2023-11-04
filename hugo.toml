@@ -1,0 +1,124 @@
+baseurl = "http://www.zihengjackchen.com"
+title = "Ziheng Chen"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+  style = "github-dark"
+
+[params]
+  author = "Ziheng (Jack) Chen"
+  info = "MS Student in Computer Engineering @ UIUC"
+  description = "Jack's personal website"
+  keywords = "Ziheng Chen, Chen Ziheng, Jack Chen, UIUC, 陈自衡"
+  avatarurl = "images/avatar.jpg"
+
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  customCSS = ["main.css"]
+  # customSCSS = ["main.scss"]
+  # customJS = ["js/custom.js"]
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-2x fa-github"
+  weight = 1
+  url = "https://github.com/JackZihengChen"
+
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-2x fa-gitlab"
+  weight = 2
+  url = "https://gitlab.com/JackZihengChen"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-2x fa-linkedin"
+  weight = 4
+  url = "https://www.linkedin.com/in/zihengjackchen/"
+
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-2x fa-envelope"
+  weight = 4
+  url = "mailto:zihengchen2000@gmail.com"
+
+[languages.en]
+  languageName = ":us:"
+
+[[languages.en.menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+
+[[languages.en.menu.main]]
+  name = "Experience"
+  weight = 2
+  url = "experience/"
+
+[[languages.en.menu.main]]
+  name = "Projects"
+  weight = 3
+  url = "projects/"
+
+[[languages.en.menu.main]]
+  name = "Skills"
+  weight = 3
+  url = "skills/"
+
+[[languages.en.menu.main]]
+  name = "Education"
+  weight = 3
+  url = "education/"
+
+
+
+[languages.zh-cn]
+languageName = ":cn:"
+title = "陈自衡"
+
+[languages.zh-cn.params]
+author = "陈自衡"
+info = "电脑工程硕士"
+description = "陈自衡的个人主页"
+keywords = "陈自衡"
+
+
+
+[[languages.zh-cn.menu.main]]
+name = "经历"
+weight = 1
+url = "experience/"
+
+[[languages.zh-cn.menu.main]]
+name = "项目"
+weight = 2
+url = "projects/"
+
+[[languages.zh-cn.menu.main]]
+name = "技术"
+weight = 3
+url = "skills/"
+
+[[languages.zh-cn.menu.main]]
+name = "关于"
+weight = 4
+url = "about/"

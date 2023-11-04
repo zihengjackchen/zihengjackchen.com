@@ -1,0 +1,53 @@
+@import "https://fonts.googleapis.com/css?family=Open Sans";
+@import "https://fonts.googleapis.com/css?family=Noto Sans";
+@import "https://fonts.googleapis.com/css?family=Agbalumo";
+
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+
+
+
+/* nav.navigation {
+    font-family: 'Agbalumo';
+}
+
+header {
+    font-family: 'Agbalumo';
+} */
+
+h1 {
+    font-family: 'Agbalumo';
+}
+h2 {
+    font-family: 'Agbalumo';
+}
+h3 {
+    font-family: 'Agbalumo';
+}
+h4 {
+    font-family: 'Agbalumo';
+}
+
+a.navigation-title {
+    font-family: 'Agbalumo';
+}
+
+a.navigation-link {
+    font-family: 'Agbalumo';
+}
+
+section.container.page {
+    font-family: 'Agbalumo';
+}
+
+* {
+    font-family: 'Agbalumo';
+}
+
+body, input, textarea {
+    font-family: 'Agbalumo';
+}
