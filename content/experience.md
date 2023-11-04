@@ -29,7 +29,7 @@ author = "Ziheng Chen"
 > - Automated generating `SQL` queries using `Python` and `RestAPIs` to extract key statistics from sales history
 
 ### Teaching Experience
-(at University of Illinois Urbana-Champaign)
+At University of Illinois Urbana-Champaign
 > **Graduate Teaching Assistant**
 > - CS/ECE 374: Intro to Algorithms & Models of Computation
 >    - Aug 2023 - Dec 2023

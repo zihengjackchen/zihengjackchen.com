@@ -1,53 +1,38 @@
-@import "https://fonts.googleapis.com/css?family=Open Sans";
+@import "https://fonts.googleapis.com/css?family=Fira Sans";
 @import "https://fonts.googleapis.com/css?family=Noto Sans";
 @import "https://fonts.googleapis.com/css?family=Agbalumo";
 
-img[src*='#center'] {
-    display: block;
-    margin: auto;
-    width: 15%;
-}
-
-
-
-
-/* nav.navigation {
-    font-family: 'Agbalumo';
+img[src*="#center"] {
+  display: block;
+  margin: auto;
+  width: 15%;
 }
 
 header {
-    font-family: 'Agbalumo';
-} */
-
-h1 {
-    font-family: 'Agbalumo';
-}
-h2 {
-    font-family: 'Agbalumo';
-}
-h3 {
-    font-family: 'Agbalumo';
-}
-h4 {
-    font-family: 'Agbalumo';
+  font-family: "Fira sans";
 }
 
-a.navigation-title {
-    font-family: 'Agbalumo';
-}
-
-a.navigation-link {
-    font-family: 'Agbalumo';
-}
-
-section.container.page {
-    font-family: 'Agbalumo';
-}
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a.navigation-title,
+a.navigation-link,
+section.container.page,
 * {
-    font-family: 'Agbalumo';
+  font-family: "Fira sans";
 }
 
-body, input, textarea {
-    font-family: 'Agbalumo';
+.content article p {
+    text-align: left;
+    text-justify: auto;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
