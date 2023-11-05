@@ -5,7 +5,8 @@ author = "Ziheng Chen"
 +++
 
 ### Programming langauges
-`python`, `C`, `C++`, `JavaScript`, `TypeScript`, `SQL`, `CUDA`, `x86`, `SystemVerilog`
+### [*`python`*](/tags/python), 
+[`c`](/tags/c), [`c++`](/tags/c++), [`JavaScript`](/tags/JavaScript), [`TypeScript`](/tags/TypeScript), `SQL`, `CUDA`, `x86`, [`SystemVerilog`](/tags/SystemVerilog)
 
 ### Tools and Frameworks
 `PyTorch`, `Docker`, `Linux`, `Git`, `MongoDB`, `React`, `Node.js`, `REST APIs`
