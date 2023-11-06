@@ -93,7 +93,7 @@ paginate = 20
 
 [languages.zh-cn]
 languageName = ":cn:"
-title = "陈自衡"
+title = "陈自衡的主页"
 
 [languages.zh-cn.params]
 author = "陈自衡"

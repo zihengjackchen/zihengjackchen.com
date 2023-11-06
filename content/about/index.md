@@ -21,10 +21,7 @@ When I'm driving, I like to listen to podcasts about staying healthy and discove
 
 
 ### Trivia
-#### My Spotify 2022 wrap
-{{< rawhtml >}}
-  <iframe style="border-radius:13px" src="https://open.spotify.com/embed/playlist/37i9dQZF1F0sijgNaJdgit?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-{{< /rawhtml >}}
+#### [My Spotify 2022 wrap](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=05a228061ad74fb1)
 
 #### Somethings I need to pick up in 2023
 - Playing basketball 🏀
