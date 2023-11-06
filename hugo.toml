@@ -81,12 +81,12 @@ paginate = 20
 
 [[languages.en.menu.main]]
   name = "Skills"
-  weight = 3
+  weight = 4
   url = "skills/"
 
 [[languages.en.menu.main]]
   name = "Education"
-  weight = 3
+  weight = 5
   url = "education/"
 
 
@@ -102,23 +102,28 @@ description = "陈自衡的个人主页"
 keywords = "陈自衡"
 
 
+[[languages.zh-cn.menu.main]]
+name = "关于"
+weight = 1
+url = "about/"
 
 [[languages.zh-cn.menu.main]]
 name = "经历"
-weight = 1
+weight = 2
 url = "experience/"
 
 [[languages.zh-cn.menu.main]]
+name = "学历"
+weight = 3
+url = "education/"
+
+[[languages.zh-cn.menu.main]]
 name = "项目"
-weight = 2
+weight = 4
 url = "projects/"
 
 [[languages.zh-cn.menu.main]]
 name = "技术"
-weight = 3
+weight = 5
 url = "skills/"
 
-[[languages.zh-cn.menu.main]]
-name = "关于"
-weight = 4
-url = "about/"
