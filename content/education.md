@@ -17,6 +17,10 @@ author = "Ziheng Chen"
 > Aug 2019 - May 2023  
 > Grade: 3.99/4.0, Highest Honor, James Scholar, Dean's List
 
+{{< rawhtml >}}
+<br/>
+{{< /rawhtml >}}
+
 ### Relevant Coursework
 - CS 446/ECE 449: Machine Learning
 - CS 444: Deep Learning for Compt Visn

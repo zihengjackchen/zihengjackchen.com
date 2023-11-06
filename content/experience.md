@@ -28,6 +28,10 @@ author = "Ziheng Chen"
 > - Profiled global sales history table in `Snowflake` and provided key statistics on the quality and usability of tables
 > - Automated generating `SQL` queries using `Python` and `RestAPIs` to extract key statistics from sales history
 
+{{< rawhtml >}}
+<br/>
+{{< /rawhtml >}}
+
 ### Teaching Experience
 At University of Illinois Urbana-Champaign
 > **Graduate Teaching Assistant**

@@ -3,17 +3,18 @@ authors = ["Ziheng Chen"]
 title = "Addressing the Insufficiencies in CARLA Simulator"
 date = "2023-05-11"
 description = "Senior Thesis"
-math = true
 tags = [
     "python",
     "carla",
-    "autonomous vehicles",
-    "dependable systems",
+    "autonomous-vehicles",
+    "dependable-systems",
+    "pandas"
 ]
 aliases = ["thesis"]
 +++
 
-![orig fric - clear_sunset_icy_70_ghost_cutin](https://raw.githubusercontent.com/JackZihengChen/CARLA-Modified-Pipeline/master/(ECE499)%20Deliverables/Motivation%20Example/Motivation%20Example%20GIF/orig%20fric%20-%20clear_sunset_icy_70_ghost_cutin.gif)![reduced fric - clear_sunset_icy_70_ghost_cutin](https://raw.githubusercontent.com/JackZihengChen/CARLA-Modified-Pipeline/master/(ECE499)%20Deliverables/Motivation%20Example/Motivation%20Example%20GIF/reduced%20fric%20-%20clear_sunset_icy_70_ghost_cutin.gif)
+![orig fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis1.gif)
+![reduced fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis2.gif)
 
 [GitHub](https://github.com/JackZihengChen/CARLA-Modified-Pipeline/tree/master)
 
