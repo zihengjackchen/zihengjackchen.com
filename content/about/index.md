@@ -6,14 +6,13 @@ aliases = ["about-me"]
 author = "Ziheng Chen"
 +++
 
-### MS student seeking an internship in software engineering for Summer 2024
+### MS student in Computer Engineering seeking an internship in software engineering for Summer 2024 (no sponsorship needed)
 
-I am a first-year graduate student pursuing a Master's degree in Computer Engineering at the University of Illinois Urbana-Champaign (UIUC). I am affiliated with the [DEPEND Research Group](https://depend.csl.illinois.edu/) at UIUC and actively engaged in research. My academic interests includes *autonomous vehicles*, *machine learning*, *cloud computing*, and *computer vision*.
+I am a first-year graduate student pursuing a Master’s in Computer Engineering at the University of Illinois Urbana-Champaign (UIUC). I am affiliated with the DEPEND Research Group at UIUC and actively engaged in research. My academic interests include autonomous vehicles, machine learning, cloud computing, and computer vision.
 
-I enjoy exploring new things, whether it's trying out different restaurants or tinkering with technology. I'm really good at spotting problems and trying to make them better. I also have fun taking apart and putting together electronic devices like keyboards, computers, and car radios.
+I enjoy exploring new things, whether trying different restaurants or using technology. I’m good at spotting problems and trying to make them better. I also enjoy taking apart and putting together electronic devices like keyboards, computers, and car radios.
 
-When I'm driving, I like to listen to podcasts about staying healthy and discovering new music. It's all about having fun and learning new things!
-
+I listen to podcasts about staying healthy and discovering new music when driving. It’s all about having fun and learning new things!
 
 {{< rawhtml >}}
 <br/>
