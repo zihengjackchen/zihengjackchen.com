@@ -16,7 +16,7 @@ aliases = ["thesis"]
 ![orig fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis1.gif)
 ![reduced fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis2.gif)
 
-[GitHub](https://github.com/JackZihengChen/CARLA-Modified-Pipeline/tree/master)
+[GitHub](https://github.com/zihengjackchen/CARLA-Modified-Pipeline/tree/master)
 
 #### Abstract
 Despite the constant refinement of autonomous vehicles (AVs), their safety remains a critical issue.
@@ -39,4 +39,4 @@ further safer AV research.
 - Generated and analyzed over 8,000 vehicle traces in varying rainy conditions, creating up to 66% more accidents
 
 
-#### [Result](https://github.com/JackZihengChen/CARLA-Modified-Pipeline/blob/master/(ECE499)%20Deliverables/Thesis.pdf)
+#### [Result](https://github.com/zihengjackchen/CARLA-Modified-Pipeline/blob/master/(ECE499)%20Deliverables/Thesis.pdf)

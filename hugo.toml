@@ -11,7 +11,9 @@ paginate = 20
 
 [params]
   author = "Ziheng (Jack) Chen"
-  info = "MS Student in Computer Engineering @ UIUC. Seeking an internship in software engineering for Summer 2024 (no sponsorship needed)."
+  info = "MS Student in Computer Engineering @ UIUC"
+  status = "Actively seeking an internship in software engineering for Summer 2024"
+  
   description = "Jack's personal website"
   keywords = "Ziheng Chen, Chen Ziheng, Jack Chen, UIUC, 陈自衡"
   avatarurl = "images/avatar.jpg"
@@ -41,13 +43,13 @@ paginate = 20
   name = "Github"
   icon = "fa fa-2x fa-github"
   weight = 1
-  url = "https://github.com/JackZihengChen"
+  url = "https://github.com/zihengjackchen"
 
 [[params.social]]
   name = "Gitlab"
   icon = "fa fa-2x fa-gitlab"
   weight = 2
-  url = "https://gitlab.com/JackZihengChen"
+  url = "https://gitlab.com/zihengjackchen"
 
 [[params.social]]
   name = "LinkedIn"
