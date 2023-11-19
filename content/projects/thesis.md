@@ -18,7 +18,12 @@ aliases = ["thesis"]
 
 [GitHub](https://github.com/zihengjackchen/CARLA-Modified-Pipeline/tree/master)
 
-#### Abstract
+#### Contributions
+- Understood the physics implemented in `CARLA` and improved the friction model as a function of weather settings 
+- Generated and analyzed over 8,000 vehicle traces in varying weather conditions, creating 300\% more accidents
+- Acquired expertise in modifying the perception, control, and planning modules in the `CARLA` simulation platform
+
+#### Problem Statement
 Despite the constant refinement of autonomous vehicles (AVs), their safety remains a critical issue.
 Many autonomous vehicle systems are developed with the help of simulations since computer simulation is a cheap and straightforward approach to generating valuable datasets. Furthermore, as a validation method, simulation-based benchmarks are widely used to determine the performance of
 autonomous models. In addition, AV research was also commonly conducted on computer hardware with simulation tools for its advantages. However, as we discover in this work, state-of-the-art AV simulators, such as CARLA, still fail to simulate the key aspects that can affect the AV's safety,
@@ -33,10 +38,7 @@ leading to a wholly different yet perilous trajectory from a designed scenario.
 As a result, this thesis aims to push better and more accurate open-sourced simulation tools that spark
 further safer AV research.
 
-#### Contributions
-- Researched potential unrealistic vehicle behavior in rare cases in CARLA simulator
-- Improved the friction model of vehicles as a function of weather according to previous literature in CARLA
-- Generated and analyzed over 8,000 vehicle traces in varying rainy conditions, creating up to 66% more accidents
+
 
 
 #### [Result](https://github.com/zihengjackchen/CARLA-Modified-Pipeline/blob/master/(ECE499)%20Deliverables/Thesis.pdf)

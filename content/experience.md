@@ -10,23 +10,24 @@ author = "Ziheng Chen"
 - **Software Engineer Intern (Part-time)**  
 StoneX Group Inc. (Chicago, Illinois, United States)  
 Jan 2023 - Jun 2023  
-    * Developed an evaluation pipeline in `Python` to efficiently back-test the performance of commodity price indices  
-    * Suggested adjustable parameters (rolling, rebalancing strategies) and calculated potential loss  
-    * The best-performing index outperformed SPGCCI by `23.3%` and `8.8%` in 10-year total return and Sharpe Ratio  
-    * Created a `Python` script for `CI/CD` to automatically migrate workflows in `Databricks` to production environments  
----
+    - Engineered from scratch an evaluation pipeline with `pandas` to benchmark prototypical commodity price indices
+    - Quantified the potential profitability of commodity indices generated from 200 index configurations, surpassed target by 23.3% in 10-year total return and 8.8% in Sharpe Ratio with the top-performing tested index
+    - Expedited benchmarking processes by scaling up job clusters in `Databricks`, reducing waiting time by 3,000%
+    - Collaborated closely with marketing associates to validate index generation and refine evaluation requirements
+    - Created an actively utilized `Python` script for `CI/CD` on `Azure DevOps` to automate Databricks workflow migration from testing to production environments, eliminated manual operations and greatly enhancing overall productivity
+<!-- --- -->
 - **Data Engineer Intern**  
 StoneX Group Inc. (Chicago, Illinois, United States)  
 Aug 2022 - Dec 2022  
-    * Integrated user authentication provided by `Okta` using `Envoy` for an existing internal web application  
-    * Streamlined data curation pipeline in the above web application and reduced waiting time to 5 seconds  
-    * Built a dashboard in `Splunk` to show the usage of the above web application filtered by associates and categories  
----
+    - Researched and deployed `Envoy Proxy` to integrate `Okta` authentication into an existing cloud application using `Docker`
+    - Optimized the data curation ETL pipeline in `Apache Airflow` for a data-serving application to cut waiting time by 20 times to 5 seconds
+    - Developed a real-time usage analysis dashboard in `Splunk`, featuring dynamic filters for associates and categories
+<!-- --- -->
 - **Data Engineer Intern**  
 Ecolab (St Paul, Minnesota, United States)  
 May 2022 - Jul 2022  
-    - Profiled global sales history table in `Snowflake` and provided key statistics on the quality and usability of tables
-    - Automated generating `SQL` queries using `Python` and `RestAPIs` to extract key statistics from sales history
+    - Profiled global sales history table in `Snowflake`, identifying 201M invalid rows to enhance data integrity
+    - Automated `SQL` query generation through `Python` and `APIs` to streamline the evaluation of data quality and usability
 
 {{< rawhtml >}}
 <br/>
@@ -37,6 +38,8 @@ At University of Illinois Urbana-Champaign
 - **Graduate Teaching Assistant**
     - CS/ECE 374: Intro to Algorithms & Models of Computation  
     Aug 2023 - Dec 2023
+        - Facilitated discussion sessions on concepts in computer science for CS/ECE 374: Introduction to Algorithms
+        - Conducted weekly office hours to offer tailored guidance and clarification on assignments and worksheets
 - **Undergraduate Course Assistant**
     - CS446/ECE449: Machine Learning  
     Jan 2023 - May 2023

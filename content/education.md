@@ -7,15 +7,13 @@ author = "Ziheng Chen"
 [Transcript (Updated 10/2023)](/transcript.pdf)
 ![University of Illinois Urbana-Champaign](/images/uiuc.jpg#center)
 
-> **University of Illinois Urbana-Champaign**  
-> Master of Science - MS, Computer Engineering*  
-> Aug 2023 - May 2025  
-> Grade: 4.0/4.0  
-
-> **University of Illinois Urbana-Champaign**  
-> Bachelor of Science - BS, Computer Engineering  
-> Aug 2019 - May 2023  
-> Grade: 3.99/4.0, Highest Honor, James Scholar, Dean's List
+**University of Illinois Urbana-Champaign**  
+- Master of Science - MS, Computer Engineering*  
+    - Aug 2023 - May 2025  
+    - Grade: 4.00/4.00 
+- Bachelor of Science - BS, Computer Engineering  
+    - Aug 2019 - May 2023  
+    - Grade: 3.99/4.00, Highest Honor, James Scholar, Dean's List
 
 {{< rawhtml >}}
 <br/>
