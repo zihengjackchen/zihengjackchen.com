@@ -22,4 +22,4 @@ O Hugo é para pessoas que querem cuidar do seu próprio site sem se preocupar c
 
 Sites contru;idos com Hugo são extremamente rápidos, seguros e podem ser implantados em qualquer lugar, incluíndo AWS, GitHub Pages, Heroku, Netlify e outros provedores de hospedagem.
 
-Saiba mais e contribua em [GitHub](https://github.com/gohugoio).
+Saiba mais e contribua em [Source (GitHub)](https://github.com/gohugoio).

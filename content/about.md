@@ -24,13 +24,12 @@ I am authorized to work in the US and do not require sponsorship.
 
 
 ### Trivia
-#### [My Spotify 2022 wrap](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=05a228061ad74fb1)
+- [My Spotify 2022 wrap](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=05a228061ad74fb1)
 
-#### Hobbies I want to pick up this semester
-Basketball 🏀, Guitar 🎸, Reading 📖, Working out 🏋️‍♂️
+- Hobbies I want to pick up this semester: `🏀`, `🎸`, `📖`, `🏋️‍♂️`
 
-#### My hometown
-{{< rawhtml >}}
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49685.99593164531!2d121.57316499999999!3d38.89254490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x358f60e17f7f5fe7%3A0xf3389cdebeb3a548!2sShahekou%20District%2C%20Dalian%2C%20Liaoning%2C%20China!5e0!3m2!1sen!2sus!4v1699238425565!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-{{< /rawhtml >}}
+- My hometown
+    -  {{< rawhtml >}}
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198639.1158762395!2d121.44594737043784!3d38.93000698225942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35865a143af6583f%3A0x76738aeb6c65c936!2sDalian%2C%20Liaoning%2C%20China!5e0!3m2!1sen!2sus!4v1700419861651!5m2!1sen!2sus" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    {{< /rawhtml >}}
 
