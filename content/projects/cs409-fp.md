@@ -3,7 +3,7 @@ authors = ["Ziheng Chen"]
 title = "Full-Stack: GymLog"
 date = "2022-12-06"
 tags = [
-    "javascript", "typescript", "react", "mongodb", "ci/cd", "node.js", "rest-api", "backend", "frontend", "firebase", "prototyping", "web-development"
+    "javascript", "typescript", "react", "mongodb", "ci-cd", "node.js", "rest-api", "backend", "frontend", "firebase", "prototyping", "web-development"
 ]
 
 aliases = ["cs409-fp"]
