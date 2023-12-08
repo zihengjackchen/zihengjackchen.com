@@ -4,7 +4,7 @@ date = "2023-10-30"
 author = "Ziheng Chen"
 +++
 
-Resume *(Updated 11/2023):* [Software Engineer](/Resume_SWE.pdf), [Data Engineer](/Resume_Data.pdf), [Machine Learning Engineer](/Resume_MLE.pdf)
+Resume: [Software Engineering](/Resume_SWE.pdf), [Verbose](/Resume_All.pdf)
 
 ### Work Experience
 - [**Software Engineer Intern**](stonex-swe-intern/)  

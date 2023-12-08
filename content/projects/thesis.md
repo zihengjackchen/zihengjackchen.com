@@ -16,8 +16,8 @@ tags = [
 aliases = ["thesis"]
 +++
 
-![orig fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis1.gif)
-![reduced fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis2.gif)
+![orig fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis1.gif#center)
+![reduced fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis2.gif#center)
 
 [Source (GitHub)](https://github.com/zihengjackchen/CARLA-Modified-Pipeline/tree/master)
 

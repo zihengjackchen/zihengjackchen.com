@@ -5,7 +5,7 @@ author = "Ziheng Chen"
 +++
 
 [Transcript (Updated 10/2023)](/transcript.pdf)
-![University of Illinois Urbana-Champaign](/images/uiuc.jpg#center)
+![University of Illinois Urbana-Champaign](/images/uiuc.jpg#small_center)
 
 ### University of Illinois Urbana-Champaign 
 - Master of Science - MS, Computer Engineering

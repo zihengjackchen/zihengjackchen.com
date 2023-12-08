@@ -1,9 +1,14 @@
 @import "https://fonts.googleapis.com/css?family=Fira Sans";
 
-img[src*="#center"] {
+img[src*="#small_center"] {
   display: block;
   margin: auto;
   width: 15%;
+}
+
+img[src*="#center"] {
+  display: block;
+  margin: auto;
 }
 
 header {
