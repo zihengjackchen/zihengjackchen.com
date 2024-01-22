@@ -1,6 +1,6 @@
 +++
 authors = ["Ziheng Chen"]
-title = "Full-Stack: GymLog"
+title = "Web: GymLog"
 date = "2022-12-06"
 tags = [
     "javascript", "typescript", "react", "mongodb", "ci-cd", "node.js", "rest-api", "backend", "frontend", "firebase", "prototyping", "web-development"

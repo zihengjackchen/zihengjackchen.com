@@ -1,6 +1,6 @@
 +++
 authors = ["Ziheng Chen"]
-title = "Friction Model Improvement in CARLA Simulator"
+title = "AV: Friction Model Improvement in CARLA Simulator"
 date = "2023-05-11"
 description = "Senior Thesis"
 tags = [

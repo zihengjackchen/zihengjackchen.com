@@ -4,7 +4,7 @@ date = "2023-10-30"
 author = "Ziheng Chen"
 +++
 
-[Transcript (Updated 10/2023)](/transcript.pdf)
+[Transcript (Updated 1/2024)](/transcript.pdf)
 ![University of Illinois Urbana-Champaign](/images/uiuc.jpg#small_center)
 
 ### University of Illinois Urbana-Champaign 
@@ -22,13 +22,14 @@ author = "Ziheng Chen"
 
 ### Relevant Coursework
 - ECE 598 RKI: Dependable AI Systems
+- ECE 542: Design of Fault-Tolerant Digital Systems
 - CS 446/ECE 449: Machine Learning
 - CS 444: Deep Learning for Compt Visn
 - ECE 471: Data Science Analytics and PGM
 - CS 445: Computational Photography
 - CS 409: The Art of Web Programming
 - CS 438/ECE 438: Communication Networks
-- (Planned) CS 425/ECE 428: Distributed Systems
+- CS 425/ECE 428: Distributed Systems
+- CS 411: Database Systems
 - (Planned) CS 473: Algorithms
-- (Planned) CS 411: Database Systems
 - (Planned) CS 440/ECE 448: Artificial Intelligence
