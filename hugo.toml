@@ -18,8 +18,8 @@ paginate = 20
   keywords = "Ziheng Chen, Chen Ziheng, Jack Chen, UIUC, 陈自衡"
   avatarurl = "images/avatar.jpg"
 
-  favicon_32 = "images/favicon-32x32.png"
-  favicon_16 = "images/favicon-16x16.png"
+  favicon_32 = "images/green_check.png"
+  favicon_16 = "images/green_check.png"
 
   since = 2023
 
