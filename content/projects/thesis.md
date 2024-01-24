@@ -11,7 +11,8 @@ tags = [
     "linux",
     "pandas",
     "large-scale-data-processing",
-    "matplotlib"
+    "matplotlib",
+    "DEPEND-Group"
 ]
 aliases = ["thesis"]
 +++
