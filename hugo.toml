@@ -12,7 +12,7 @@ paginate = 20
 [params]
   author = "Ziheng (Jack) Chen"
   info = "MS Student in Computer Engineering @ UIUC"
-  status = "Actively seeking an internship in software engineering for Summer 2024"
+  status = "![Static Badge](https://img.shields.io/badge/Works_on-my_machine-blue)"
   
   description = "Jack's personal website"
   keywords = "Ziheng Chen, Chen Ziheng, Jack Chen, UIUC, 陈自衡"
