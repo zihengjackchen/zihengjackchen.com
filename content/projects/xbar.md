@@ -11,19 +11,20 @@ aliases = ["xbar"]
 # xbar-scripts
 [Source (GitHub)](https://github.com/zihengjackchen/xbar-scripts/)
 
+Developed scripts for the open-source xbarapp for MacOS. Including a script that shows your daily leetcode status and a separate script that shows a random GRE word or CS concept.
 
-## Leetcode Reminder - Daily LeetCode Status
+### Leetcode Reminder - Daily LeetCode Status
 ![Leetcode Reminder](https://raw.githubusercontent.com/zihengjackchen/xbar-scripts/main/leetcode_reminder/demo.png#center)
-### Description:
+#### Description:
 Keep track of your daily LeetCode progress with this script. It displays insightful information about your current standing, helping you stay organized and motivated in your coding journey.
 
-## Daily Words - Random GRE Word or CS Concept
+### Daily Words - Random GRE Word or CS Concept
 ![Daily Words](https://raw.githubusercontent.com/zihengjackchen/xbar-scripts/main/daily_words/demo.png#center)
 
-### Description:
+#### Description:
 Expand your vocabulary or reinforce computer science concepts with this script. It randomly selects and displays a GRE word or a computer science concept, providing a quick dose of learning.
 
-## How to Install xbarapp:
+### How to Install xbarapp:
 If you haven't installed xbarapp yet, follow these simple steps:
 
 1. Visit the xbarapp GitHub repository: [xbarapp GitHub](https://github.com/matryer/xbar)
