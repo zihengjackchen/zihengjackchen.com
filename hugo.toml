@@ -52,6 +52,12 @@ paginate = 20
   url = "https://gitlab.com/zihengjackchen"
 
 [[params.social]]
+  name = "Email"
+  icon = "fa fa-2x fa-code"
+  weight = 4
+  url = "coding/"
+  
+[[params.social]]
   name = "LinkedIn"
   icon = "fa fa-2x fa-linkedin"
   weight = 4
@@ -62,6 +68,7 @@ paginate = 20
   icon = "fa fa-2x fa-envelope"
   weight = 4
   url = "mailto:zihengchen2000@gmail.com"
+
 
 [languages.en]
   languageName = ":us:"
