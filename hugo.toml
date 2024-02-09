@@ -1,5 +1,5 @@
 baseurl = "http://www.zihengjackchen.com"
-title = "Ziheng's Homepage"
+title = "Home"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -51,11 +51,6 @@ paginate = 20
   weight = 2
   url = "https://gitlab.com/zihengjackchen"
 
-[[params.social]]
-  name = "Email"
-  icon = "fa fa-2x fa-code"
-  weight = 4
-  url = "coding/"
   
 [[params.social]]
   name = "LinkedIn"
