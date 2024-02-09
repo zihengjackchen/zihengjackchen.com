@@ -3,6 +3,9 @@ authors = ["Ziheng Chen"]
 title = "Undergraduate Course Assistant"
 date = "2023-05-12"
 aliases = ["grader"]
+tags = [
+    "leadership"
+]
 +++
  
 - **Undergraduate Course Grader**

@@ -4,7 +4,7 @@ date = "2023-10-30"
 author = "Ziheng Chen"
 +++
 
-Resume: [Software Engineering](/Resume_SWE.pdf), [Autonomous Vehicles](/Resume_AV.pdf), [Verbose](/Resume_All.pdf)
+Resume: [Software Engineering](/Resume_SWE.pdf), [Autonomous Vehicles](/Resume_AV.pdf)
 
 ### Work Experience
 - [**Software Engineer Intern**](stonex-swe-intern/)  
@@ -22,12 +22,12 @@ Ecolab
 St Paul, Minnesota, United States  
 May 2022 - Jul 2022  
 
-{{< rawhtml >}}
-<br/>
-{{< /rawhtml >}}
-
 ### Teaching Experience
 At University of Illinois Urbana-Champaign
 - [**Graduate Teaching Assistant**](ta/)  
 - [**Undergraduate Course Assistant**](ca/)  
 - [**Undergraduate Course Grader**](grader/)  
+
+### Leadership Experience
+At University of Illinois Urbana-Champaign
+- [**ECE Graduate Student Advancement Committee**](ecegradsac/)  

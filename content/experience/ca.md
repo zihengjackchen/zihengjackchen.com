@@ -4,7 +4,7 @@ title = "Undergraduate Course Assistant"
 date = "2023-05-12"
 aliases = ["ca"]
 tags = [
-    "machine-learning", "pytorch", "systemverilog"
+    "machine-learning", "pytorch", "systemverilog", "leadership"
 ]
 +++
  

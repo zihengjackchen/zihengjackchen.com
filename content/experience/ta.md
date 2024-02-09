@@ -3,6 +3,9 @@ authors = ["Ziheng Chen"]
 title = "Graduate Teaching Assistant"
 date = "2023-08-16"
 aliases = ["ta"]
+tags = [
+    "leadership"
+]
 +++
  
 **Graduate Teaching Assistant**
