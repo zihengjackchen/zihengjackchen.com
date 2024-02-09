@@ -1,6 +1,6 @@
 +++
 authors = ["Ziheng Chen"]
-title = "Undergraduate Course Assistant"
+title = "Undergraduate Grader"
 date = "2023-05-12"
 aliases = ["grader"]
 tags = [
