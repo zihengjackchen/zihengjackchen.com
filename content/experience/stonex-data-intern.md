@@ -5,7 +5,7 @@ date = "2022-12-07"
 tags = [
     "python", "envoy-proxy", "okta", 
     "docker", "apache-airflow",
-    "splunk"
+    "splunk", "microservices"
 ]
 aliases = ["stonex-data-intern"]
 +++

@@ -23,11 +23,10 @@ St Paul, Minnesota, United States
 May 2022 - Jul 2022  
 
 ### Teaching Experience
-At University of Illinois Urbana-Champaign
+
 - [**Graduate Teaching Assistant**](ta/)  
 - [**Undergraduate Course Assistant**](ca/)  
 - [**Undergraduate Course Grader**](grader/)  
 
 ### Leadership Experience
-At University of Illinois Urbana-Champaign
 - [**ECE Graduate Student Advancement Committee**](ecegradsac/)  

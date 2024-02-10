@@ -10,7 +10,7 @@ author = "Ziheng Chen"
 </div>
 {{< /rawhtml >}}
 
-- **Programming langauges**
+- **Programming Langauges**
     - **General**: [Python](/tags/python), [C++](/tags/c++) 
     - **Web Development**: [JavaScript](/tags/javascript), [TypeScript](/tags/typescript), [HTML](/tags/html), [CSS](/tags/css)
     - **System Programming**: [C](/tags/c), GO, [x86 Assembly](/tags/x86), CUDA, [SystemVerilog](/tags/systemverilog), [Bash](/tags/bash)
@@ -27,6 +27,6 @@ author = "Ziheng Chen"
     - **Dependable Systems**: [Dependable Systems](/tags/dependable-systems), [Autonomous Vehicles](/tags/autonomous-vehicles), [Large-Scale Data Processing](/tags/large-scale-data-processing)
     - **Web Development**: [Web Development](/tags/web-development), [Front-end](/tags/frontend), [Back-end](/tags/backend), [CI/CD](/tags/ci-cd), [Prototyping](/tags/prototyping)
 - **Langauges**
-    - Chinese (Mandarin): Native or bilingual proficiency
-    - English: Native or bilingual proficiency
-- **People skills**: [leadership](/tags/leadership)
+    - **English**: Native or bilingual proficiency
+    - **Chinese (Mandarin)**: Native or bilingual proficiency
+- [**Leadership**](/tags/leadership)

@@ -1,4 +1,6 @@
-@import "https://fonts.googleapis.com/css?family=Noto";
+@import "https://fonts.googleapis.com/css?family=Lato";
+@import "https://fonts.googleapis.com/css?family=Noto+Sans";
+@import "https://fonts.googleapis.com/css?family=Fira+Sans";
 
 img[src*="#small_center"] {
   display: block;
@@ -11,9 +13,6 @@ img[src*="#center"] {
   margin: auto;
 }
 
-header {
-  font-family: "Fira sans";
-}
 
 h1,
 h2,
@@ -21,11 +20,18 @@ h3,
 h4,
 h5,
 h6,
+header,
 a.navigation-title,
 a.navigation-link,
 section.container.page,
+.list ul li .title,
 * {
-  font-family: -apple-system,Fira sans,BlinkMacSystemFont,segoe ui,Roboto,microsoft yahei,微软雅黑,SimSun,宋体;
+  font-family: 
+    'Lato', 
+    'Noto Sans', 
+    'Fira Sans', 
+    -apple-system, 
+    BlinkMacSystemFont;
 }
 
 .content article p {

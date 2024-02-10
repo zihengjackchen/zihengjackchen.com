@@ -6,29 +6,29 @@ aliases = ["about-me"]
 author = "Ziheng Chen"
 +++
 
-🔍 **Actively Seeking Software Engineering Opportunities for Summer 2024** 🔍  
-Authorized to work in the US | No sponsorship required
+🔍 **Actively Seeking Software Engineering Opportunities for Summer 2024** 🔍
 
-Greetings! I am a first-year graduate student pursuing a Master’s in Computer Engineering at the prestigious University of Illinois Urbana-Champaign (UIUC). My primary goal is to secure a rewarding position in software engineering, leveraging my academic background and research experience.
+Greetings! I'm Ziheng (Jack) Chen, a dedicated Master's student in Computer Engineering at the University of Illinois Urbana-Champaign (UIUC), set to graduate in May 2025.
+
+My journey at UIUC has been marked by significant milestones, including internships at [StoneX Group](https://www.stonex.com/) and [Ecolab](https://www.ecolab.com/), where I excelled in roles that required me to innovate and streamline system efficiencies through quick prototyping. 
+
+Beyond these professional experiences, my research within the [DEPEND Research Group](https://depend.csl.illinois.edu/) has been a cornerstone of my academic pursuit. Here, I focus on autonomous vehicles, using machine learning and system design to enhance their safety and reliability. I am passionate about leveraging technology to solve critical challenges and drive forward the integration of dependable AV technology into daily life.
 
 **Technical Proficiency:**
-- 💼 Interned as a Software Engineer and Data Engineer at StoneX Group and Ecolab
-- 🧠 Adept at identifying and addressing system inefficiencies with quick prototyping
-- 🛠️ Strong technical skills complemented by a solid background in software engineering
-
-**Career Aspirations:**
-- 🚀 Eager to bring my skills and knowledge to a dynamic and growth-oriented role in software engineering
-- 🔍 Actively seeking opportunities to contribute to the dependability and resilience of complex systems
+- A solid foundation in software engineering, bolstered by robust technical skills in Python, C++, machine learning, cloud computing, and computer vision.
+- A proven ability to apply software and data engineering principles to tangible projects, improving financial models and software processes.
 
 **Academic and Research Profile:**
-- 📚 Specializing in Computer Engineering with a focus on system dependability
-- 🤖 Actively engaged in research spanning autonomous vehicles, machine learning, cloud computing, and computer vision
-- 🎓 Undertaken leadership roles within my graduate studies
+- Specializing in Computer Engineering with an emphasis on system dependability.
+- Taking on leadership roles within my graduate studies, enhancing my capacity for communication and teamwork.
 
-**More About Me:**
-- 🌐 **Languages:** Fluent in English and Chinese (Mandarin)
-- 🏀 **Hobbies:** Passionate about Basketball, Guitar enthusiast 🎸, Gym enthusiast 🏋️‍♂️, and fascinated by Custom Keyboards ⌨️
-- 🎧 **[My Spotify 2022 Wrap](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=05a228061ad74fb1):** Discover my musical preferences from the past year.
+### Interests
+My passion for technology transcends academic and professional realms, guiding my personal explorations into dismantling electronic devices, discovering new music, and setting personal development goals like learning the guitar and staying physically active.
 
-I am actively exploring job opportunities in the field of software engineering. Open to networking and discussing potential collaborations with industry professionals. Let’s connect!
-
+### Trivia
+-  [My Spotify 2022 Wrap](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=05a228061ad74fb1)
+- Goals for 2024
+    - Mastering basketball 🏀
+    - Strumming the guitar 🎸
+    - Immersing in reading 📖
+    - Committing to fitness 🏋️‍♂️

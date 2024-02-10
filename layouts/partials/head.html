@@ -19,3 +19,9 @@
 {{ if .IsHome }}{{ partial "head/hugo-generator.html" . }}{{ end }}
 
 {{ partial "head/extensions.html" . }}
+
+
+{{ template "_internal/google_analytics.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
+
+  
