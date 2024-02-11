@@ -10,7 +10,7 @@ tags = [
 aliases = ["stonex-data-intern"]
 +++
  
-**Data Engineer Intern** (co-op)  
+**Data Engineer Intern**   
 StoneX Group Inc.  
 Chicago, Illinois, United States  
 Aug 2022 - Dec 2022   
