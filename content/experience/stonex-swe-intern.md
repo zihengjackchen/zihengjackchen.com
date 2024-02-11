@@ -10,7 +10,7 @@ tags = [
 aliases = ["stonex-swe-intern"]
 +++
  
-**Software Engineer Intern** (co-op)    
+**Software Engineer Intern**     
 StoneX Group Inc.  
 Chicago, Illinois, United States   
 Jan 2023 - Jun 2023  
