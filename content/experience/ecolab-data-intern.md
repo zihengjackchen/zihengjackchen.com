@@ -9,7 +9,7 @@ tags = [
 aliases = ["ecolab-data-intern"]
 +++
  
-**Data Engineer Intern** (Full-Time)  
+**Data Engineer Intern**  
 Ecolab  
 St Paul, Minnesota, United States  
 May 2022 - Jul 2022  
