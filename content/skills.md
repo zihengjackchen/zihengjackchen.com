@@ -3,13 +3,11 @@ title = "Skills"
 date = "2023-10-30"
 author = "Ziheng Chen"
 +++
-![Demo](https://leetcard.jacoblin.cool/zihengjackchen?theme=nord&font=Noto%20Sans&ext=contest#center)
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <a href="https://app.codesignal.com/evaluation-result/9nCGqusgWDJf8k25F?accessToken=RYpMCA95LYwPqDopS-75GYSFK4ju6uTJiAqyCsGjPM">CodeSignal</a>
-</div>
-{{< /rawhtml >}}
 
+- [**Leadership**](/tags/leadership)
+- **Langauges**
+    - **English**: Native or bilingual proficiency
+    - **Chinese (Mandarin)**: Native or bilingual proficiency
 - **Programming Langauges**
     - **General**: [Python](/tags/python), [C++](/tags/c++) 
     - **Web Development**: [JavaScript](/tags/javascript), [TypeScript](/tags/typescript), [HTML](/tags/html), [CSS](/tags/css)
@@ -26,7 +24,8 @@ author = "Ziheng Chen"
     - **AI**: [Machine Learning](/tags/machine-learning), [Deep Learning](/tags/deep-learning), [Computer Vision](/tags/computer-vision), [Neural Networks](/tags/neural-networks), [Reinforcement Learning](/tags/reinforcement-learning), [Large Language Models](/tags/large-language-model)
     - **Dependable Systems**: [Dependable Systems](/tags/dependable-systems), [Autonomous Vehicles](/tags/autonomous-vehicles), [Large-Scale Data Processing](/tags/large-scale-data-processing)
     - **Web Development**: [Web Development](/tags/web-development), [Front-end](/tags/frontend), [Back-end](/tags/backend), [CI/CD](/tags/ci-cd), [Prototyping](/tags/prototyping)
-- **Langauges**
-    - **English**: Native or bilingual proficiency
-    - **Chinese (Mandarin)**: Native or bilingual proficiency
-- [**Leadership**](/tags/leadership)
+- **Coding Reports**
+    - [CodeSignal](https://app.codesignal.com/evaluation-result/9nCGqusgWDJf8k25F?accessToken=RYpMCA95LYwPqDopS-75GYSFK4ju6uTJiAqyCsGjPM)
+    - ![Demo](https://leetcard.jacoblin.cool/zihengjackchen?theme=nord&font=Noto%20Sans&ext=contest#center)
+
+

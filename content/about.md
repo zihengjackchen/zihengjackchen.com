@@ -8,7 +8,7 @@ author = "Ziheng Chen"
 
 🔍 **Actively Seeking Software Engineering Opportunities for Summer 2024** 🔍
 
-Greetings! I'm Ziheng (Jack) Chen, a dedicated Master's student in Computer Engineering at the University of Illinois Urbana-Champaign (UIUC), set to graduate in May 2025.
+Greetings! I'm Jack, a [Master's student](https://ece.illinois.edu/about/directory/grad-students/zihengc2) in Computer Engineering at the University of Illinois Urbana-Champaign (UIUC), set to graduate in May 2025.
 
 My journey at UIUC has been marked by significant milestones, including internships at [StoneX Group](https://www.stonex.com/) and [Ecolab](https://www.ecolab.com/), where I excelled in roles that required me to innovate and streamline system efficiencies through quick prototyping. 
 
