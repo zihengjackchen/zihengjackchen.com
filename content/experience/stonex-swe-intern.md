@@ -14,10 +14,10 @@ aliases = ["stonex-swe-intern"]
 StoneX Group Inc.  
 Chicago, Illinois, United States   
 Jan 2023 - Jun 2023  
-- Designed and developed an evaluation pipeline using `Pandas` to benchmark prototypical commodity price indices, which are comprised of multiple commodity futures
-- Analyzed the potential profitability of commodity indices derived from 200 different index configurations, exceeding the target by 23.3% in 10-year total return and 8.8% in Sharpe Ratio, with the top-performing tested index
-- Accelerated benchmarking processes by scaling up job clusters in `Azure Databricks`, resulting in a 3,000% reduction in waiting time
-- Collaborated closely with marketing associates to validate index generation and refine evaluation requirements
-- Developed a `Python` script for `CI/CD` in `Azure DevOps` to automate `Databricks` workflow migration from testing to production environments, managing intricate logic to handle edge cases effectively, and eliminating manual operations
+- Designed and developed an evaluation pipeline with `pandas` to benchmark developmental commodity indices, which are market derivatives, using historical prices and paving the way for their potential market release as a product
+- Analyzed the profitability of commodity indices generated from 200+ expert-provided index configurations, surpassing performance targets by 23.3% in 10-year total return with the highest-performing index
+- Collaborated closely with marketing associates to validate index generation methods and refine evaluation criteria
+- Accelerated benchmarking in `Databricks` by optimizing and parallelizing processes, slashing waiting time by 3,000%
+- Created a `Python` script for `CI/CD` in `Azure DevOps`, automating `Databricks` workflow migration across environments, rigorously testing intricate logic to effectively handle edge cases and replace manual operations
 
 
