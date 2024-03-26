@@ -4,7 +4,7 @@ date = "2023-10-30"
 author = "Ziheng Chen"
 +++
 
-Resume: [Software Engineering](/Resume_SWE.pdf)
+Resume: [Software Engineering](/Resume_SWE.pdf), [Autonomous Vehicles](/Resume_AV.pdf)
 
 ### Work Experience
 - [**Software Engineer Intern**](stonex-swe-intern/)  
