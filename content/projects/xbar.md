@@ -1,14 +1,12 @@
 +++
 authors = ["Ziheng Chen"]
-title = "Web: xbar Scripts"
+title = "Scripts for xbar"
 date = "2024-01-21"
 tags = [
     "python", "rest-api", "graphql", "bash"
 ]
-aliases = ["xbar"]
 +++
 
-# xbar-scripts
 [Source (GitHub)](https://github.com/zihengjackchen/xbar-scripts/)
 
 Developed scripts for the open-source xbarapp for MacOS. Including a script that shows your daily leetcode status and a separate script that shows a random GRE word or CS concept.

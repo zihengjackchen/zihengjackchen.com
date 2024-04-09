@@ -11,12 +11,17 @@ aliases = ["stonex-data-intern"]
 +++
  
 **Data Engineer Intern**   
-StoneX Group Inc.  
+StoneX Group  
 Chicago, Illinois, United States  
+Data as a Service Team  
 Aug 2022 - Dec 2022   
-- Deployed a proxy `microservice` to integrate company-wide `Okta authentication` into an existing cloud application 
-- Optimized the data curation `ETL` pipeline for a data-serving application to cut loading time by 20 times to 5 seconds
-- Developed a dynamic usage analysis dashboard in `Splunk`, showing associate usage and category-specific insights
-- Utilized `Docker` and `agile methodologies` to ensure flexibility and adaptability throughout the entire project lifecycle
+
+![demo](/images/experience/auth.png#center)  
+- Enhanced and optimized a `Streamlit` web application through security integration and `ETL` pipeline improvements
+- Researched solutions to integrate `Okta authentication` into the web application, deploying `Envoy Proxy` microservice, achieving user access control using bearer tokens and `MS SQL Server`, enhancing data confidentiality
+- Developed a dynamic usage analysis dashboard in `Splunk`, delivering associate usage and category-specific insights
+- Migrated the data curation `ETL` pipeline from `Apache Airflow` to a continuous `Databricks workflow`, efficiently managing staging data with `Azure Blob Storage`, and updated the application using `Docker` to reduce load times by 30x to 5 seconds
+- Managed microservices using `Rancher` for `Kubernetes` management and documented the overall system design for clarity
+- Utilized `Agile methodologies` to ensure project flexibility and timely completion, adapting to evolving project needs
 
 

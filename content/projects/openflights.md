@@ -1,11 +1,10 @@
 +++
 authors = ["Ziheng Chen"]
-title = "DSA: OpenFlights"
+title = "OpenFlights: Flight Information Processing"
 date = "2021-05-20"
 tags = [
     "c++", "data-structures", "large-scale-data-processing"
 ]
-aliases = ["cs225"]
 +++
 
 [Source (GitHub)](https://github.com/zihengjackchen/CS225FinalProject)
@@ -15,17 +14,10 @@ aliases = ["cs225"]
 * [Presentation Video](https://youtu.be/r_ltZNUqKkw)
 * [Presentation Slides](https://github-dev.cs.illinois.edu/cs225-sp21/rmday2-yuen9-zihengc2-haoyu9/blob/master/CS%20225%20Final%20Project%20Presentation.pdf)
 
-#### Contributions
-- Led a team in a final project using OpenFlights data to construct a graph of airports and routes
-- Implemented key algorithms, including Djikstra's, Landmark Path, and Page Rank, for efficient analysis of airport connectivity and importance
-- Developed a modular codebase with distinct files for Airport, Flight, airport_graph, BFS, Djikstras, Landmark, PageRank, and main, ensuring a clear and organized structure
-- Enabled user-friendly program execution with detailed instructions, dataset selection, and interactive operations, enhancing accessibility
-- Conducted comprehensive testing covering airport construction, graph building, PageRank, BFS traversal, Djikstra's algorithm, and Landmark Path algorithm
-
 
 #### Project Overview
 ##### Introduction
-In our final project, we utilized data from [OpenFlights](https://openflights.org/data.html) to create a graph representation of airports and their routes. Our project incorporates three key algorithms: Djikstra's algorithm for finding the shortest path between two airports, a Landmark Path algorithm for determining the shortest path between two airports with landmarks in between, and a Page Rank algorithm to identify important airports.
+We utilized data from [OpenFlights](https://openflights.org/data.html) to create a graph representation of airports and their routes. Our project incorporates three key algorithms: Djikstra's algorithm for finding the shortest path between two airports, a Landmark Path algorithm for determining the shortest path between two airports with landmarks in between, and a Page Rank algorithm to identify important airports.
 
 ##### Code and Data Overview
 The project codebase comprises several files, each serving a specific purpose:
@@ -47,15 +39,9 @@ To execute the program, use the 'finalproject' executable and follow these steps
 
 To end the program, use `Ctrl+C`.
 
-##### Main Function Overview
-The main function comprises seven cases, allowing users to interact with different aspects of our project. Users can observe results from BFS traversal, PageRank algorithm, Landmark Path algorithm, and Djikstra's algorithm.
-
-##### Testing
-Tests can be executed with:
-```
-make test
-./test
-```
-Our tests cover the functionality of constructing airports, building graphs, implementing PageRank, BFS traversal, Djikstra's algorithm, and the Landmark Path algorithm.
-
-#### Team Members: zihengc2-haoyu9-yuen9-rmday2
+#### Contributions
+- Led a team in a final project using OpenFlights data to construct a graph of airports and routes
+- Implemented key algorithms, including Djikstra's, Landmark Path, and Page Rank, for efficient analysis of airport connectivity and importance
+- Developed a modular codebase with distinct files for Airport, Flight, airport_graph, BFS, Djikstras, Landmark, PageRank, and main, ensuring a clear and organized structure
+- Enabled user-friendly program execution with detailed instructions, dataset selection, and interactive operations, enhancing accessibility
+- Conducted comprehensive testing covering airport construction, graph building, PageRank, BFS traversal, Djikstra's algorithm, and Landmark Path algorithm

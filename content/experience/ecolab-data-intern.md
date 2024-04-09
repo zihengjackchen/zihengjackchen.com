@@ -11,9 +11,14 @@ aliases = ["ecolab-data-intern"]
  
 **Data Engineer Intern**   
 Ecolab  
-St Paul, Minnesota, United States  
+St Paul, Minnesota, United States 
+Enterprise Data Office   
 May 2022 - Jul 2022  
-- Profiled global sales history table in `Snowflake`, identifying 201M invalid rows to enhance data integrity
-- Automated `SQL` query generation through `Python` and `APIs` to streamline the evaluation of data quality and usability
+
+![demo](/images/experience/dashboard.png#center)  
+- Profiled tables in `Snowflake` using `SQL` to examine key statistics, identifying outliers and trends, enhancing data integrity
+- Identified 201M invalid rows and created an interactive `Snowsight` dashboard to support business decisions
+- Automated query generation with `JinjaSQL` in `Python`, utilizing the `Alation` catalog, accelerating data quality evaluation
+- Analyzed 19300 hours of Service Requests logs of dishmachines, cleansed using Python from `Snowflake`, processed `Azure Cognitive Service` to identify 6 common issues and their locations, informing potential refresh strategies
 
 

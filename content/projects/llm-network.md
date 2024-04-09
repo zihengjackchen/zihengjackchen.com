@@ -1,6 +1,6 @@
 +++
 authors = ["Ziheng Chen"]
-title = "LLM: Siri for Network Configuration"
+title = "Siri: LLM for Network Configuration"
 date = "2023-12-15"
 description = "Siri for Network Configuration"
 tags = [
@@ -10,7 +10,6 @@ tags = [
     "dependable-systems",
     "network"
 ]
-aliases = ["ece598"]
 +++
 
 # Siri for Network Configuration
@@ -18,6 +17,7 @@ aliases = ["ece598"]
 [Source (GitHub)](https://github.com/zihengjackchen/LLM-Network-Configuration)  
 [Presentation](https://github.com/zihengjackchen/LLM-Network-Configuration/blob/main/presentation.pdf)  
 [Report](https://github.com/zihengjackchen/LLM-Network-Configuration/blob/main/report.pdf)  
+
 
 #### Problem Statement
 Efficiently validating and correcting network configurations is a critical aspect of ensuring the reliability and security of cloud systems. This research explores the use of GPT-4 Turbo, a state-of-the-art Large Language Model (LLM), in identifying and rectifying network configuration errors. The study evaluates its performance on 100 flawed network configuration files, revealing a success rate of 70% without contextual information, improving to 85% accuracy through in-context learning. Future research avenues, including observed hallucinations in LLM-aided validation, are also outlined.

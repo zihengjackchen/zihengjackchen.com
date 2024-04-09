@@ -11,6 +11,7 @@ img[src*="#small_center"] {
 img[src*="#center"] {
   display: block;
   margin: auto;
+  width: 75%;
 }
 
 

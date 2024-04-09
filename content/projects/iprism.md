@@ -1,7 +1,7 @@
 +++
 authors = ["Ziheng Chen"]
-title = "AV: Traffic Risk Assessment and Mitigation"
-date = "2023-12-07"
+title = "iPrism: Traffic Risk Assessment and Mitigation"
+date = "2024-04-05"
 description = "Watch Out for the Safety-Threatening Actors: Proactively Mitigating Safety Hazards"
 tags = [
     "python", "subprocess", "threadpoolexecutor", 
@@ -16,13 +16,14 @@ tags = [
     "seaborn",
     "DEPEND-Group"
 ]
-aliases = ["dsn2024"]
 +++
 
 ![Demo](/images/projects/dsn2024.gif#center)
 ![Demo](/images/projects/dsn2024_realworld.gif#center)
 
-Artifact submitted to DSN committee. [Source (work in progress)](https://github.com/zihengjackchen/iPrism)
+*Paper accepted by DSN 2024*
+
+*Artifact submitted to DSN committee. [Source (work in progress)](https://github.com/zihengjackchen/iPrism)*
 
 #### Problem Statement
 In complex and dynamic real-world situations involving multiple actors, ensuring safety is a significant challenge. This complexity often leads to severe accidents. The current techniques for mitigating safety hazards are not effective because they do not guarantee accessible escape routes and do not specifically address actors contributing to hazards. As a result, these techniques may not provide timely responses. 
@@ -33,13 +34,9 @@ Our approach demonstrates a substantial reduction in the accident rate for advan
 
 
 #### Contributions
-- Enhanced dependability of AVs in unfamiliar and accident-prone scenarios with innovative traffic risk assessment method
-- Designed experiments to validate the proposed method using 30000+ trials in CARLA Simulator and real-world dataset
-- Created parallelized data generation and testing pipelines and boosted efficiency by 200% using subprocess in Python
-- Constructed 6000 unfamiliar scenarios from NHTSA pre-crash typologies and trained lightweight Reinforcement Learning
-Agents in PyTorch to preemptively brake using the traffic risk as an indicator, reducing accidents by 72.7%
-
-#### Result
-*Related lightning talk accepted by VehicleSec 2024*
-*Paper accepted by DSN 2024*
-
+- Enhanced the resiliency of AVs in unfamiliar and accident-prone scenarios with a novel traffic risk assessment method
+- Validated the method by unit-testing a prototype using designed experiments in `CARLA Simulator` and Argoverse dataset, including real-world geometric and semantic metadata, lane boundaries, geometric LiDAR, and ring camera information
+- Created `multi-threaded` data generation and testing pipelines and boosted efficiency by 200% using `subprocess` in Python
+- Engineered a memory-efficient `ResNet` variant, reducing the footprint by 50% while achieving 95%+ testing accuracy
+- Constructed 6000 scenarios from NHTSA pre-crash typologies and trained lightweight `Double DQN` Reinforcement Learning Agents in `PyTorch` to preemptively brake using the traffic risk as an indicator, reducing accidents by 72.7%
+- Cleansed and statistically analyzed generated datasets using `pandas`, and visualized outcomes with seaborn and Matplotlib

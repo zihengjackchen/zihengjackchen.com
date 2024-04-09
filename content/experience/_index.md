@@ -4,16 +4,20 @@ date = "2023-10-30"
 author = "Ziheng Chen"
 +++
 
-Resume: [Software Engineering](/Resume_SWE.pdf), [Autonomous Vehicles](/Resume_AV.pdf)
+Resume:
+- [Software Engineering](/Resume_General.pdf)
+- [Full-Stack](/Resume_Full_Stack.pdf)
+- [Machine Learning](/Resume_MLE.pdf)
+- [Autonomous Vehicles](/Resume_AV.pdf)
 
 ### Work Experience
-- [**Software Engineer Intern**](stonex-swe-intern/)  
-StoneX Group Inc.  
+- [**Machine Learning Engineer** *(Co-Op)* ](stonex-mle/)  
+StoneX Group   
 Chicago, Illinois, United States  
 Jan 2023 - Jun 2023  
     
-- [**Data Engineer Intern**](stonex-data-intern/)  
-StoneX Group Inc.  
+- [**Data Engineer Intern** *(Co-Op)* ](stonex-data-intern/)  
+StoneX Group  
 Chicago, Illinois, United States  
 Aug 2022 - Dec 2022  
     

@@ -1,6 +1,6 @@
 +++
 authors = ["Ziheng Chen"]
-title = "AV: Friction Model Improvement in CARLA Simulator"
+title = "Friction Model Improvement in CARLA Simulator"
 date = "2023-05-11"
 description = "Senior Thesis"
 tags = [
@@ -14,7 +14,6 @@ tags = [
     "matplotlib",
     "DEPEND-Group"
 ]
-aliases = ["thesis"]
 +++
 
 ![orig fric - clear_sunset_icy_70_ghost_cutin](/images/projects/thesis1.gif#center)
@@ -23,11 +22,6 @@ aliases = ["thesis"]
 [Source (GitHub)](https://github.com/zihengjackchen/CARLA-Modified-Pipeline/tree/master)
 
 [Result](https://github.com/zihengjackchen/CARLA-Modified-Pipeline/blob/master/(ECE499)%20Deliverables/Thesis.pdf)
-
-#### Contributions
-- Understood the physics implemented in `CARLA` and improved the friction model as a function of weather settings 
-- Generated and analyzed over 8,000 vehicle traces in varying weather conditions, creating 300\% more accidents
-- Acquired expertise in modifying the perception, control, and planning modules in the `CARLA` simulation platform
 
 #### Problem Statement
 Despite continuous improvements in autonomous vehicles (AVs), there's still a major concern about their safety. Many AV systems are developed using computer simulations because it's a cost-effective way to create useful datasets. Simulations, especially those used as benchmarks, are widely employed to evaluate how well AV models perform. However, our research reveals that even advanced AV simulators like `CARLA` fall short in simulating crucial aspects that impact safety, especially in challenging weather conditions. This can result in training AV systems that are not optimally prepared.
@@ -43,3 +37,7 @@ Our evaluation indicates that, in adverse scenarios, our modifications could inc
 As a result, this thesis aims to contribute to the development of improved, more accurate, and open-sourced simulation tools, fostering safer research in autonomous vehicles.
 
 
+#### Contributions
+- Understood the physics implemented in `CARLA` and improved the friction model as a function of weather settings 
+- Generated and analyzed over 8,000 vehicle traces in varying weather conditions, creating 300\% more accidents
+- Acquired expertise in modifying the perception, control, and planning modules in the `CARLA` simulation platform

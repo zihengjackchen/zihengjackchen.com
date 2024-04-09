@@ -1,12 +1,11 @@
 +++
 authors = ["Ziheng Chen"]
-title = "DSA: Chicago Traffic Study"
+title = "Chicago Traffic Study"
 date = "2022-11-27"
 tags = [
     "python", "pandas", "machine-learning", "large-scale-data-processing",
     "matplotlib", "seaborn"
 ]
-aliases = ["te360"]
 +++
 
 ![map](/images/projects/te360.png#center)
@@ -14,14 +13,6 @@ aliases = ["te360"]
 [Source (GitHub)](https://github.com/zihengjackchen/TE360/tree/main/Final%20Project)
 
 [Results](https://github.com/zihengjackchen/TE360/blob/main/Final%20Project/Presentables/TE360%20Final%20Project%20Report.pdf)
-
-#### Contribution
-- Conducted a comprehensive analysis of traffic conditions in Chicago over the last three years using datasets from the Chicago Data Portal
-- Investigated the impact of business density on traffic quality, specifically focusing on congestion and the number of crashes as key criteria
-- Utilized datasets such as "Chicago Traffic Tracker - Congestion Estimates by Regions" and "Traffic Crashes - Crashes" to assess congestion levels and crash occurrences
-- Examined congestion patterns throughout the day in regions between home and the city, providing insights into peak traffic times
-- Contributed to the understanding of traffic dynamics in Chicago, offering valuable information for route planning and assisting newcomers in selecting offices with lower traffic accessibility.
-- Demonstrated proficiency in data analysis, leveraging datasets with latitude and longitude information, including "Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2018-Current" and "Business Licenses"
 
 #### Problem Statement
 The traffic in Chicago is terrible, at least that's what I was told. Like many other metropolitans, there are countless cars on the already ancient and narrow roads, and pedestrians are everywhere, making the driving condition even worse. As a result, aggressive drivers are commonplace. However, For the weeks that I worked in the city, I could not find any evidence to support the previous statement. Specifically, when I went out to a restaurant for lunch on a workday, I did not notice the overflowing amount of cars on
@@ -49,4 +40,11 @@ contains the listed fields respectively:
 4. Business Licenses
     - Business location in terms of latitude and longitude
 
-    
+
+#### Contribution
+- Conducted a comprehensive analysis of traffic conditions in Chicago over the last three years using datasets from the Chicago Data Portal
+- Investigated the impact of business density on traffic quality, specifically focusing on congestion and the number of crashes as key criteria
+- Utilized datasets such as "Chicago Traffic Tracker - Congestion Estimates by Regions" and "Traffic Crashes - Crashes" to assess congestion levels and crash occurrences
+- Examined congestion patterns throughout the day in regions between home and the city, providing insights into peak traffic times
+- Contributed to the understanding of traffic dynamics in Chicago, offering valuable information for route planning and assisting newcomers in selecting offices with lower traffic accessibility.
+- Demonstrated proficiency in data analysis, leveraging datasets with latitude and longitude information, including "Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2018-Current" and "Business Licenses"
