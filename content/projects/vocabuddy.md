@@ -9,6 +9,7 @@ tags = [
 aliases = ["vocabuddy"]
 +++
 
+Source (work in progress)
 
 - Developed a full-stack vocabulary builder app using `React.js` for the front-end and `Node.js` with `MySQL` for the back-end
 - Designed a data schema using a UML diagram and deployed a `MySQL` instance on `GCP` for scalable storage solutions
