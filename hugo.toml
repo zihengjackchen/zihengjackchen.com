@@ -3,7 +3,7 @@ googleAnalytics = "G-946N9V2H6F"
 
 baseurl = "http://www.zihengjackchen.com"
 title = "Home"
-theme = ["hugo-coder"]
+theme = ["hugo-video", "hugo-coder"]
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -15,7 +15,6 @@ paginate = 20
 [params]
   author = "Ziheng (Jack) Chen"
   info = "MS Student in Computer Engineering @ UIUC"
-  status = "![Static Badge](https://img.shields.io/badge/Works_on-my_machine-blue)"
   
   description = "Jack's personal website"
   keywords = "Ziheng Chen, Chen Ziheng, Jack Chen, UIUC, 陈自衡"
@@ -76,10 +75,6 @@ paginate = 20
   weight = 1
   url = "about/"
 
-[[languages.en.menu.main]]
-  name = "News"
-  weight = 1
-  url = "https://www.linkedin.com/in/zihengjackchen/recent-activity/all/"
   
 [[languages.en.menu.main]]
   name = "Experience"
