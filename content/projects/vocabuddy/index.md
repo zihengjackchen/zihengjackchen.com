@@ -30,9 +30,8 @@ User can searh for words, check school detail, and check site statistics when no
 User can study words and check their own progress when logged in.
 
 #### Contributions
-- Developed a full-stack vocabulary builder app using `React.js` for the front-end and `Node.js` with `Express.js` and `MySQL` for the back-end
-- Designed a data schema using a UML diagram and deployed a `MySQL` instance on `GCP` for scalable storage solutions
-- Created advanced SQL queries using transactions, isolation levels, and control structures for data integrity
-- Optimized database queries and implemented indexing strategies, achieving up to 300x reduction in operational costs
-- Added user authentication and supported social networking features to promote daily engagement and progress tracking
-- Integrated an intelligent learning progress tracking algorithm for personalized recommendations
+- Developed a vocabulary builder app with progress tracking and social networking features to promote daily engagement
+- Used `React.js` (front-end), with `Express` and `Node.js` (back-end APIs), and a `MySQL` database, entirely hosted on `GCP`
+- Researched and selected optimal data sources for vocabulary content and designed a normalized `MySQL` database schema
+- Reduced operational costs of advanced `SQL` queries by up to 300x through strategic indexing of database tables
+- Developed an intelligent algorithm for tracking learning progress, providing personalized content recommendations to users
