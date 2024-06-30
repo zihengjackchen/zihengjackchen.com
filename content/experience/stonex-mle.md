@@ -11,10 +11,10 @@ aliases = ["stonex-mle"]
 +++
  
 **Machine Learning Engineer** *(Co-Op)*  
-StoneX Group  
+[StoneX Group](https://www.stonex.com/)    
 Chicago, Illinois, United States   
 Data as a Service Team  
-Jan 2023 - Jun 2023  
+Jan 2023 - June 2023  
 
 ![demo](/images/experience/CICD.png#center)
 - Created a proof of concept pipeline to benchmark prototypical commodity indices, enabling their potential product release

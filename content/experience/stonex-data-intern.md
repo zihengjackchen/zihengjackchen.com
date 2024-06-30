@@ -11,7 +11,7 @@ aliases = ["stonex-data-intern"]
 +++
  
 **Data Engineer Intern**   
-StoneX Group  
+[StoneX Group](https://www.stonex.com/)  
 Chicago, Illinois, United States  
 Data as a Service Team  
 Aug 2022 - Dec 2022   

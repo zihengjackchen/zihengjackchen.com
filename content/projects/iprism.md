@@ -18,14 +18,9 @@ tags = [
 ]
 +++
 
-![Demo](/images/projects/dsn2024.gif#center)
-![Demo](/images/projects/dsn2024_realworld.gif#center)
+Paper accepted by DSN 2024: [Project Website](https://zihengjackchen.github.io/iprism-page/)  [Source](https://github.com/zihengjackchen/iPrism)
 
-[Project Website](https://zihengjackchen.github.io/AV-webpages/iprism/)  
-
-*Paper accepted by DSN 2024*
-
-*Artifact submitted to DSN committee. [Source (work in progress)](https://github.com/zihengjackchen/iPrism)*
+![Demo](/images/projects/iprism_intro.jpg#center)
 
 #### Problem Statement
 In complex and dynamic real-world situations involving multiple actors, ensuring safety is a significant challenge. This complexity often leads to severe accidents. The current techniques for mitigating safety hazards are not effective because they do not guarantee accessible escape routes and do not specifically address actors contributing to hazards. As a result, these techniques may not provide timely responses. 

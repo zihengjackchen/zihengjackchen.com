@@ -13,7 +13,7 @@ aliases = ["ecolab-data-intern"]
 Ecolab  
 St Paul, Minnesota, United States 
 Enterprise Data Office   
-May 2022 - Jul 2022  
+May 2022 - July 2022  
 
 ![demo](/images/experience/dashboard.png#center)  
 - Profiled tables in `Snowflake` using `SQL` to examine key statistics, identifying outliers and trends, enhancing data integrity
