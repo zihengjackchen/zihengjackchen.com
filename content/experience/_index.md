@@ -4,16 +4,12 @@ date = "2023-10-30"
 author = "Ziheng Chen"
 +++
 
-Resume:
-- [Software Engineering](/Resume_General.pdf)
-- [Full-Stack](/Resume_Full_Stack.pdf)
-- [Machine Learning](/Resume_MLE.pdf)
-- [Autonomous Vehicles](/Resume_AV.pdf)
+Resume: [General](/Resume.pdf), [Full-Stack](/Resume-FS.pdf)
 
 ### Work Experience
 - [**Site Reliability Engineer Intern**](talos-sre/)  
 [Talos Trading](https://www.talos.com/)  
-New York City, New York, United States  
+New York, New York, United States  
 June 2024 - Aug 2024  
 
 - [**Machine Learning Engineer** *(Co-Op)* ](stonex-mle/)  

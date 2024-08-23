@@ -8,6 +8,12 @@ img[src*="#small_center"] {
   width: 15%;
 }
 
+img[src*="#med_center"] {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
 img[src*="#center"] {
   display: block;
   margin: auto;
