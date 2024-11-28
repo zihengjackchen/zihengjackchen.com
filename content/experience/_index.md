@@ -4,7 +4,7 @@ date = "2023-10-30"
 author = "Ziheng Chen"
 +++
 
-Resume: [General](/Resume.pdf), [Full-Stack](/Resume-FS.pdf)
+[Resume](/Resume.pdf)
 
 ### Work Experience
 - [**Site Reliability Engineer Intern**](talos-sre/)  

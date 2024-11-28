@@ -18,19 +18,13 @@ tags = [
 ]
 +++
 
-Paper accepted by DSN 2024: [Project Website](https://zihengjackchen.github.io/iprism-page/)  [Source](https://github.com/zihengjackchen/iPrism)
+Accepted by DSN 2024: 
+- [Paper](https://ieeexplore.ieee.org/abstract/document/10646631) 
+- [Project Website](https://zihengjackchen.github.io/iprism-page/)  
+- [Source](https://github.com/zihengjackchen/iPrism)
 
 ![Demo](/images/projects/iprism_intro.jpg#center)
 
-#### Problem Statement
-In complex and dynamic real-world situations involving multiple actors, ensuring safety is a significant challenge. This complexity often leads to severe accidents. The current techniques for mitigating safety hazards are not effective because they do not guarantee accessible escape routes and do not specifically address actors contributing to hazards. As a result, these techniques may not provide timely responses. 
-
-To overcome these limitations, we propose a new measure called the safety-threat indicator (STI). This metric helps identify crucial actors by incorporating defensive driving techniques through counterfactual reasoning. We utilize STI to analyze real-world datasets, revealing inherent biases towards safe scenarios. Additionally, we employ it to develop a hazard mitigation policy using reinforcement learning. 
-
-Our approach demonstrates a substantial reduction in the accident rate for advanced autonomous vehicle agents in rare hazardous scenarios—up to a 77% improvement over current state-of-the-art methods. 
-
-
-#### Contributions
 - Enhanced the resiliency of AVs in unfamiliar and accident-prone scenarios with a novel traffic risk assessment method
 - Validated the method by unit-testing a prototype using designed experiments in `CARLA Simulator` and Argoverse dataset, including real-world geometric and semantic metadata, lane boundaries, geometric LiDAR, and ring camera information
 - Created `multi-threaded` data generation and testing pipelines and boosted efficiency by 200% using `subprocess` in Python

@@ -16,15 +16,11 @@ author = "Ziheng Chen"
     - **Data**: [pandas](/tags/pandas), [Databricks](/tags/databricks), [Snowflake](/tags/snowflake), [Apache Airflow](/tags/apache-airflow), Datadog, Splunk, Envoy Proxy
     - **Other Python Packages**: [subprocess](/tags/subprocess), [ThreadPoolExecutor](/tags/threadpoolexecutor), [matplotlib](/tags/matplotlib), [seaborn](/tags/seaborn), pytest
     - **Autonomous Vehicles**: [CARLA Simulator](/tags/CARLA)
-- **Concepts**
-    - **AI**: [Machine Learning](/tags/machine-learning), [Deep Learning](/tags/deep-learning), [Computer Vision](/tags/computer-vision), [Neural Networks](/tags/neural-networks), [Reinforcement Learning](/tags/reinforcement-learning), [Large Language Models](/tags/large-language-model)
-    - **Dependable Systems**: [Dependable Systems](/tags/dependable-systems), [Autonomous Vehicles](/tags/autonomous-vehicles), [Large-Scale Data Processing](/tags/large-scale-data-processing)
-    - **Web Development**: [Web Development](/tags/web-development), [Front-end](/tags/frontend), [Back-end](/tags/backend), [CI/CD](/tags/ci-cd), [Prototyping](/tags/prototyping)
 - **Langauges**
     - **English**: Native or bilingual proficiency
     - **Chinese (Mandarin)**: Native or bilingual proficiency
 - **Coding Reports**
-    - [CodeSignal](https://app.codesignal.com/evaluation-result/9nCGqusgWDJf8k25F?accessToken=RYpMCA95LYwPqDopS-75GYSFK4ju6uTJiAqyCsGjPM)
-    ![Demo](https://leetcard.jacoblin.cool/zihengjackchen?theme=nord&font=Noto%20Sans&ext=contest#center)
+    - [CodeSignal](https://app.codesignal.com/evaluation-result/h5yjQpJejjcMWha6P)
+    ![Leetcode](https://leetcard.jacoblin.cool/zihengjackchen?theme=nord&font=Noto%20Sans&ext=contest#center)
 
 
