@@ -1,5 +1,5 @@
 +++
-title = "My love🥰"
+title = "🥰"
 author = "Ziheng Chen"
 aliases = ["🐷"]
 +++
